@@ -5,7 +5,7 @@
         "smallImageText": "Powered by Helios",
         "smallImageKey": "seal-circle"
     },
-    "rss": "https://mc.example.com/feed.xml",
+    "rss": "https://cbnusoftware.kro.kr/feed.xml",
     "servers": [
         {
             "id": "CBNUsw",
