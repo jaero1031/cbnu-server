@@ -37,7 +37,7 @@
                     "modules": []
                 },
                 {
-                    "id": "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91",
+                    "id": "com.ishland.c2me:c2me-neoforge-mc1.21.1:0.3.0+alpha.0.91",
                     "name": "C2ME",
                     "type": "ForgeMod",
                     "artifact": {
@@ -49,7 +49,7 @@
                     }
                 },
                 {
-                    "id": "krypton-hybrid-1.21.1-neoforge-0.2.30",
+                    "id": "org.kryptonmc:krypton-hybrid:0.2.30",
                     "name": "Krypton",
                     "type": "ForgeMod",
                     "artifact": {
@@ -61,13 +61,13 @@
                     }
                 },
                 {
-                    "id": "Pixelmon-1.21.1-9.3.14-universal",
+                    "id": "com.pixelmonmod:pixelmon:9.3.14",
                     "name": "Pixelmon",
                     "type": "ForgeMod",
                     "artifact": {
                         "version": "9.3.14",
                         "path": "mods/Pixelmon-1.21.1-9.3.14-universal.jar",
-                        "url": "https://jaero1031.github.io/cbnu-server/MServerRoot/servers/CBNUsw-1.21.1/neoforgemods/required/Pixelmon-1.21.1-9.3.14-universal.jar",
+                        "url": "https://cdn.modrinth.com/data/59ZceYlU/versions/NknNQ3DN/Pixelmon-1.21.1-9.3.14-universal.jar",
                         "md5": "16b4735ab6775939fd085a4a9c5f60a1",
                         "size": 392190454
                     }
