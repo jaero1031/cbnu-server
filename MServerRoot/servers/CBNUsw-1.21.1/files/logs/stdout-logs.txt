@@ -1,0 +1,593 @@
+﻿[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1777980424357" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[ModLauncher running: args [--username, jaero_ro, --version, neoforge-21.1.228, --gameDir, C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2, --assetsDir, C:\Users\USER\curseforge\minecraft\Install\assets, --assetIndex, 17, --uuid, ffb97b03f06c46bda7c40c065e898825, --accessToken, ?꾟쓣?꾟쓣?꾟쓣?꾟쓣, --clientId, 974995-4f02dd-29e069-394ef4-fe6375, --xuid, 2535466329850312, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\USER\curseforge\minecraft\Quickplay\9eb99179-68d2-411a-9c72-1775c695fac5.json, --fml.neoForgeVersion, 21.1.228, --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430, --launchTarget, forgeclient]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1777980424361" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.Launcher" timestamp="1777980424363" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.ImmediateWindowHandler" timestamp="1777980424514" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Loading ImmediateWindowProvider fmlearlywindow]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1777980424644" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Trying GL version 4.6]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1777980424787" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Requested GL version 4.6 got version 4.6]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980424919" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/USER/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%23121!/ Service=ModLauncher Env=CLIENT]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="EARLYDISPLAY" timestamp="1777980425040" level="INFO" thread="pool-2-thread-1">
+[STDOUT]     <log4j:Message><![CDATA[GL info: AMD Radeon 780M Graphics GL version 4.6.0 Core Profile Context 25.20.42.09.260127, ATI Technologies Inc.]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980425424" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "client-1.21.1-20240808.144430-srg.jar" [locator: production client provider +net.neoforged:neoforge:21.1.228:client]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980425454" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "neoforge-21.1.228-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[C:\Users\USER\curseforge\minecraft\Install\libraries\net\neoforged\neoforge\21.1.228\neoforge-21.1.228-universal.jar]], reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980425467" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar" [locator: {mods folder locator at C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980425474" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "krypton hybrid-1.21.1-neoforge-0.2.30.jar" [locator: {mods folder locator at C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980425502" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "Pixelmon-1.21.1-9.3.14-universal.jar" [locator: {mods folder locator at C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\mods}, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator" timestamp="1777980426282" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found 31 dependencies adding them to mods collection]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426283" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [parent: neoforge-21.1.228-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426284" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-fixes-worldgen-threading-issues-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426284" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-threading-lighting-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426286" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-fixes-chunkio-threading-issues-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426289" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-client-uncapvd-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426290" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-rewrites-chunk-serializer-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426290" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "net.neoforged.neoforge-coremods-21.1.228.jar" [parent: neoforge-21.1.228-universal.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426290" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-server-utils-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426291" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-natives-math-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426291" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-dfc-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426291" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-fixes-general-threading-issues-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426291" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "velocity-native-3.4.0-SNAPSHOT.jar" [parent: krypton hybrid-1.21.1-neoforge-0.2.30.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426291" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-notickvd-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426292" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found gamelibrary file "mixinsquared-neoforge-0.2.0-beta.6.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426292" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "jctools-core-4.0.5.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426292" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-worldgen-general-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426292" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-chunkio-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426293" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-math-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426294" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-rewrites-chunk-system-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426295" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "rxjava-3.1.12.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426296" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "MixinSquared-0.2.0-beta.6.jar" [parent: mixinsquared-neoforge-0.2.0-beta.6.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426296" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "reactive-streams-1.0.4.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426296" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-base-mc1.21.1-0.3.0+alpha.0.91-all.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426297" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-rewrites-chunkio-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426297" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-worldgen-vanilla-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426297" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-fixes-worldgen-vanilla-bugs-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426297" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-scheduling-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426298" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found mod file "c2me-opts-allocs-mc1.21.1-0.3.0+alpha.0.91.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar, reader: mod manifest]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426298" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "asyncutil-0.1.0.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426301" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "zstd-jni-1.5.7-7.jar" [parent: krypton hybrid-1.21.1-neoforge-0.2.30.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426301" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Found library file "exp4j-0.4.8.jar" [parent: c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar, locator: jarinjar]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="net.neoforged.fml.loading.moddiscovery.ModDiscoverer" timestamp="1777980426307" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[
+[STDOUT]      Mod List:
+[STDOUT] 		Name Version (Mod Id)
+[STDOUT] 
+[STDOUT] 		Concurrent Chunk Management Engine 0.3.0+alpha.0.91+1.21.1 (c2me)
+[STDOUT] 		Concurrent Chunk Management Engine (Base) 0.3.0+alpha.0.91+1.21.1 (c2me_base)
+[STDOUT] 		Concurrent Chunk Management Engine (Client/Uncap View Distance) 0.3.0+alpha.0.91+1.21.1 (c2me_client_uncapvd)
+[STDOUT] 		Concurrent Chunk Management Engine (Fixes/Chunk IO/Threading Issues) 0.3.0+alpha.0.91+1.21.1 (c2me_fixes_chunkio_threading_issues)
+[STDOUT] 		Concurrent Chunk Management Engine (Fixes/General/Threading Issues) 0.3.0+alpha.0.91+1.21.1 (c2me_fixes_general_threading_issues)
+[STDOUT] 		Concurrent Chunk Management Engine (Fixes/WorldGen/Threading Issues) 0.3.0+alpha.0.91+1.21.1 (c2me_fixes_worldgen_threading_issues)
+[STDOUT] 		Concurrent Chunk Management Engine (Fixes/WorldGen/Vanilla Bugs) 0.3.0+alpha.0.91+1.21.1 (c2me_fixes_worldgen_vanilla_bugs)
+[STDOUT] 		Concurrent Chunk Management Engine (No Tick View Distance) 0.3.0+alpha.0.91+1.21.1 (c2me_notickvd)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/Chunk IO) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_chunkio)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/Density Function Compiler) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_dfc)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/General WorldGen) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_worldgen_general)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/Math) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_math)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/Memory Allocations) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_allocs)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/Natives Math) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_natives_math)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/Scheduling) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_scheduling)
+[STDOUT] 		Concurrent Chunk Management Engine (Optimizations/Vanilla WorldGen) 0.3.0+alpha.0.91+1.21.1 (c2me_opts_worldgen_vanilla)
+[STDOUT] 		Concurrent Chunk Management Engine (Rewrites/Chunk IO) 0.3.0+alpha.0.91+1.21.1 (c2me_rewrites_chunkio)
+[STDOUT] 		Concurrent Chunk Management Engine (Rewrites/Chunk Serializer) 0.3.0+alpha.0.91+1.21.1 (c2me_rewrites_chunk_serializer)
+[STDOUT] 		Concurrent Chunk Management Engine (Rewrites/Chunk System) 0.3.0+alpha.0.91+1.21.1 (c2me_rewrites_chunk_system)
+[STDOUT] 		Concurrent Chunk Management Engine (Server Utils) 0.3.0+alpha.0.91+1.21.1 (c2me_server_utils)
+[STDOUT] 		Concurrent Chunk Management Engine (Threading/Lighting) 0.3.0+alpha.0.91+1.21.1 (c2me_threading_lighting)
+[STDOUT] 		Krypton Hybrid 0.2.30 (krypton_hybrid)
+[STDOUT] 		Minecraft 1.21.1 (minecraft)
+[STDOUT] 		NeoForge 21.1.228 (neoforge)
+[STDOUT] 		Pixelmon 9.3.14 (pixelmon)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980428253" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Compatibility level set to JAVA_21]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="cpw.mods.modlauncher.LaunchServiceHandler" timestamp="1777980428288" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Launching target 'forgeclient' with arguments [--version, neoforge-21.1.228, --gameDir, C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2, --assetsDir, C:\Users\USER\curseforge\minecraft\Install\assets, --uuid, ffb97b03f06c46bda7c40c065e898825, --username, jaero_ro, --assetIndex, 17, --accessToken, ?꾟쓣?꾟쓣?꾟쓣?꾟쓣, --clientId, 974995-4f02dd-29e069-394ef4-fe6375, --xuid, 2535466329850312, --userType, msa, --versionType, release, --width, 1024, --height, 768, --quickPlayPath, C:\Users\USER\curseforge\minecraft\Quickplay\9eb99179-68d2-411a-9c72-1775c695fac5.json]]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428736" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428821" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.threading.lighting.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428824" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428828" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.client.uncapvd.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428874" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428877" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428880" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.server.utils.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428883" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.natives_math.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428885" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Disabling com.ishland.c2me.opts.natives_math.mixin due to incompatible Java version, see debug logs for details]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428885" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Disabling com.ishland.c2me.opts.natives_math.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428887" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.dfc.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428888" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Disabling com.ishland.c2me.opts.dfc.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428889" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.fixes.general.threading_issues.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428891" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.notickvd.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Config System" timestamp="1777980428913" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980428946" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'krypton_hybrid.refmap.json' for krypton_hybrid.mixins.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428948" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.worldgen.general.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428951" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.chunkio.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428957" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.math.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428962" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.rewrites.chunksystem.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428967" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.base.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428970" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.rewrites.chunkio.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428976" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428977" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428981" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.scheduling.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="C2ME Modules Manager" timestamp="1777980428987" level="INFO" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Initializing com.ishland.c2me.opts.allocs.mixin]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980428988" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Reference map 'pixelmon.refmap.json' for mixins.pixelmon.json could not be read. If this is a development environment you can ignore this message]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980429288" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca.spottedleaf.starlight.common.thread.SchedulingUtil)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980429313" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: me/jellysquid/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.gui.SodiumGameOptionPages)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980429314" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: net/caffeinemc/sodium/config/user/UserConfigCategories (java.lang.ClassNotFoundException: net.caffeinemc.sodium.config.user.UserConfigCategories)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980429315" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: net/caffeinemc/mods/sodium/client/gui/SodiumGameOptionPages (java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptionPages)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980429316" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net.vulkanmod.config.option.Options)]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT]   <log4j:Event logger="mixin" timestamp="1777980429751" level="WARN" thread="main">
+[STDOUT]     <log4j:Message><![CDATA[Redundant @Unique on injector method krypton$applyDccToTrackingDiff(Lnet/minecraft/server/level/ChunkTrackingView;Lnet/minecraft/server/level/ChunkTrackingView;Ljava/util/function/Consumer;Ljava/util/function/Consumer;Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/server/level/ChunkTrackingView;)V in krypton_hybrid.mixins.json:network.chunk.ChunkMapDccMixin from mod krypton_hybrid. Injectors are implicitly unique]]></log4j:Message>
+[STDOUT]   </log4j:Event>
+[STDOUT] WARN StatusConsoleListener Error parsing URI C:\Users\USER\curseforge\minecraft\Install\assets\log_configs\client-1.12.xml
+[STDOUT] WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[STDOUT] [20:27:10] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[STDOUT] [20:27:11] [Datafixer Bootstrap/INFO] [mojang/DataFixerBuilder]: 229 Datafixer optimizations took 280 milliseconds
+[STDOUT] [20:27:16] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/USER/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[STDOUT] [20:27:16] [Render thread/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/USER/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[STDOUT] [20:27:16] [Render thread/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[STDOUT] [20:27:16] [Render thread/INFO] [minecraft/Minecraft]: Setting user: jaero_ro
+[STDOUT] [20:27:16] [Render thread/INFO] [minecraft/Minecraft]: Backend library: LWJGL version 3.3.3+5
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:16] [modloading-worker-0/WARN] [minecraft/SynchedEntityData]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[STDOUT] [20:27:17] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[STDOUT] [20:27:17] [modloading-worker-0/INFO] [co.xi.Kr.sh.KryptonSharedBootstrap/]: Krypton is now accelerating your Minecraft client's networking stack ?
+[STDOUT] [20:27:17] [modloading-worker-0/INFO] [co.xi.Kr.sh.KryptonSharedBootstrap/]: Note that Krypton is most effective on servers, not the client.
+[STDOUT] [20:27:17] [modloading-worker-0/INFO] [co.xi.Kr.sh.KryptonSharedBootstrap/]: Compression will use RecastXZ 3 (Windows x86_64), encryption will use Java
+[STDOUT] [20:27:20] [modloading-sync-worker/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:20] [modloading-sync-worker/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:20] [modloading-sync-worker/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Render thread/INFO] [minecraft/ReloadableResourceManager]: Reloading ResourceManager: vanilla, mod_resources, mod/c2me_fixes_worldgen_threading_issues, mod/c2me_threading_lighting, mod/c2me_fixes_chunkio_threading_issues, mod/c2me_client_uncapvd, mod/c2me_rewrites_chunk_serializer, mod/c2me_server_utils, mod/c2me_opts_natives_math, mod/c2me_opts_dfc, mod/c2me_fixes_general_threading_issues, mod/neoforge, mod/c2me_notickvd, mod/krypton_hybrid, mod/c2me_opts_worldgen_general, mod/c2me_opts_chunkio, mod/c2me_opts_math, mod/c2me, mod/c2me_rewrites_chunk_system, mod/c2me_base, mod/c2me_rewrites_chunkio, mod/c2me_opts_worldgen_vanilla, mod/c2me_fixes_worldgen_vanilla_bugs, mod/c2me_opts_scheduling, mod/c2me_opts_allocs, mod/pixelmon,tcg
+[STDOUT] [20:27:21] [Worker-Main-3/INFO] [co.pi.pi.Pixelmon/]: Loading Pixelmon version 9.3.14
+[STDOUT] [20:27:21] [Worker-Main-3/INFO] [co.pi.pi.Pixelmon/]: Loaded Advancements
+[STDOUT] [20:27:21] [Worker-Main-3/INFO] [co.pi.pi.Pixelmon/]: Started the async storage scheduler.
+[STDOUT] [20:27:21] [Worker-Main-3/INFO] [co.pi.pi.Pixelmon/]: Started the async storage scheduler.
+[STDOUT] [20:27:21] [Worker-Main-3/INFO] [co.pi.pi.Pixelmon/]: Started the async storage scheduler.
+[STDOUT] [20:27:21] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [pixelmon] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[STDOUT] [20:27:21] [Worker-Main-9/INFO] [minecraft/UnihexProvider]: Found unifont_all_no_pua-15.1.05.hex, loading
+[STDOUT] [20:27:21] [Worker-Main-7/INFO] [minecraft/UnihexProvider]: Found unifont_jp_patch-15.1.05.hex, loading
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractInteractionsEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBattleEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/WARN] [minecraft/SynchedEntityData]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[STDOUT] [20:27:21] [Worker-Main-3/INFO] [Pixelmon TCG/]: Loading TCG version 9.3.14
+[STDOUT] [20:27:21] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [pixelmon] Found status: OUTDATED Current: 9.3.14 Target: 9.3.15
+[STDOUT] [20:27:21] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [tcg] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[STDOUT] [20:27:21] [Worker-Main-3/INFO] [Pixelmon TCG/]: Initializing Pixelmon TCG v9.3.14
+[STDOUT] [20:27:21] [NeoForge Version Check/INFO] [ne.ne.fm.VersionChecker/]: [tcg] Found status: OUTDATED Current: 9.3.14 Target: 9.3.15
+[STDOUT] [20:27:22] [Worker-Main-2/ERROR] [co.pi.pi.Pixelmon/]: Unable to find resource pack for setting window icon
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/yellow_floor_gym_sign' referenced from: pixelmon:item/yellow_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/yellow_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/gray_floor_gym_sign' referenced from: pixelmon:item/gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/gray_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/blue_floor_gym_sign' referenced from: pixelmon:item/blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/blue_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/brown_floor_gym_sign' referenced from: pixelmon:item/brown_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/brown_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/no_item' referenced from: pixelmon:item/no_item: java.io.FileNotFoundException: pixelmon:models/item/no_item.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/purple_floor_gym_sign' referenced from: pixelmon:item/purple_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/purple_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/black_floor_gym_sign' referenced from: pixelmon:item/black_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/black_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/magenta_floor_gym_sign' referenced from: pixelmon:item/magenta_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/magenta_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/light_gray_floor_gym_sign' referenced from: pixelmon:item/light_gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_gray_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/green_floor_gym_sign' referenced from: pixelmon:item/green_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/green_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/light_blue_floor_gym_sign' referenced from: pixelmon:item/light_blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_blue_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/pink_floor_gym_sign' referenced from: pixelmon:item/pink_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/pink_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/white_floor_gym_sign' referenced from: pixelmon:item/white_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/white_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/red_floor_gym_sign' referenced from: pixelmon:item/red_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/red_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'tcg:item/battle_spectator' referenced from: tcg:item/battle_spectator: java.io.FileNotFoundException: tcg:models/item/battle_spectator.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/lime_floor_gym_sign' referenced from: pixelmon:item/lime_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/lime_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/orange_floor_gym_sign' referenced from: pixelmon:item/orange_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/orange_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-12/WARN] [minecraft/ModelBakery]: Unable to load model: 'pixelmon:item/cyan_floor_gym_sign' referenced from: pixelmon:item/cyan_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/cyan_floor_gym_sign.json
+[STDOUT] [20:27:22] [Worker-Main-13/WARN] [minecraft/SpriteLoader]: Texture pixelmon:block/placeholder with size 1x1 limits mip level from 4 to 0
+[STDOUT] [20:27:23] [Worker-Main-13/WARN] [minecraft/ModelManager]: Missing textures in model pixelmon:fossil_display#facing=north,multipos=bottom:
+[STDOUT]     minecraft:textures/atlas/blocks.png:pixelmon:block/fossil_display
+[STDOUT] [20:27:23] [Worker-Main-13/WARN] [minecraft/ModelManager]: Missing textures in model pixelmon:trash_can#:
+[STDOUT]     minecraft:textures/atlas/blocks.png:pixelmon:block/trash_can
+[STDOUT] [20:27:23] [Worker-Main-13/WARN] [minecraft/ModelManager]: Missing textures in model pixelmon:zygarde_cell#orientation=east,rotation=south:
+[STDOUT]     minecraft:textures/atlas/blocks.png:pixelmon:block/cell/zygarde_cell
+[STDOUT] [20:27:23] [Worker-Main-13/WARN] [minecraft/ModelManager]: Missing textures in model pixelmon:fossil_machine#facing=east,multipos=bottom:
+[STDOUT]     minecraft:textures/atlas/blocks.png:pixelmon:block/fossil_machine
+[STDOUT] [20:27:23] [Worker-Main-13/WARN] [minecraft/ModelManager]: Missing textures in model tcg:battle_spectator#facing=west,multipos=base:
+[STDOUT]     minecraft:textures/atlas/blocks.png:minecraft:block/anvil_base
+[STDOUT] [20:27:23] [Worker-Main-13/WARN] [minecraft/ModelManager]: Missing textures in model pixelmon:jade_orb#facing=east:
+[STDOUT]     minecraft:textures/atlas/blocks.png:pixelmon:block/orbs/delta_orb
+[STDOUT] [20:27:23] [Worker-Main-13/WARN] [minecraft/ModelManager]: Missing textures in model pixelmon:zygarde_core#orientation=south,rotation=down:
+[STDOUT]     minecraft:textures/atlas/blocks.png:pixelmon:block/cell/zygarde_core
+[STDOUT] [20:27:24] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:item.goat_horn.play
+[STDOUT] [20:27:24] [Render thread/WARN] [minecraft/SoundEngine]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[STDOUT] [20:27:25] [Render thread/INFO] [mojang/Library]: OpenAL initialized on device OpenAL Soft on 스피커(Realtek(R) Audio)
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/SoundEngine]: Sound engine started
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/blocks/fossil_machine/fossil_extractor_glass.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/ERROR] [co.pi.pi.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/blocks/infuser/infuser_glass.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/blocks/reassembly_unit/reassembly_unit_glass.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/fluff/clouds.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/playeritems/shiny_charm.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/playeritems/oval_charm.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/playeritems/exp_charm.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/playeritems/catching_charm.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/WARN] [co.pi.pi.Pixelmon/]: Model pixelmon:models/playeritems/mark_charm.pqc has no animations!
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[STDOUT] [20:27:25] [Render thread/INFO] [minecraft/TextureAtlas]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named FogStart in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:rendertype_entity_cutout_no_cull could not find uniform named IViewRotMat in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:cel could not find sampler named Sampler1 in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:cel could not find sampler named Sampler2 in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:cel could not find uniform named Light1_Direction in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:terrastalization could not find sampler named Sampler0 in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:terrastalization could not find uniform named ColorModulator in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:terrastalization could not find uniform named Light0_Direction in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:terrastalization could not find uniform named Light1_Direction in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:terrastalization could not find uniform named FogStart in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/WARN] [minecraft/ShaderInstance]: Shader pixelmon:terrastalization could not find uniform named RenderColor in the specified shader program.
+[STDOUT] [20:27:25] [Render thread/INFO] [ne.ne.ne.cl.en.an.js.AnimationLoader/]: Loaded 0 entity animations
+[STDOUT] [20:28:07] [Render thread/INFO] [minecraft/ConnectScreen]: Connecting to cbnusoftware.kro.kr, 25565
+[STDOUT] [20:28:08] [Netty Client IO #2/WARN] [co.pi.pi.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[STDOUT] [20:28:08] [Netty Client IO #2/WARN] [co.pi.pi.Pixelmon/]: Attack name invalid: Tera Starstorm
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: equal Weight: 0
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: uncommon Weight: 40
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: haunted Weight: 0
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: common Weight: 50
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: legendary Weight: 10
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: ultimate Weight: 1
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: rare Weight: 30
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: notboss Weight: 0
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: epic Weight: 20
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Decoding: drowned Weight: 0
+[STDOUT] [20:28:09] [Netty Client IO #2/INFO] [co.pi.pi.Pixelmon/]: Registering Better Spawner.
+[STDOUT] [20:28:10] [Render thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
+[STDOUT] [20:28:10] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 3 advancements
+[STDOUT] [20:28:44] [Render thread/INFO] [minecraft/ConnectScreen]: Connecting to cbnusoftware.kro.kr, 25565
+[STDOUT] [20:28:45] [Render thread/WARN] [ne.ne.fm.co.ConfigTracker/]: Overwriting non-null config LoadedConfig[config=SynchronizedConfig{DataHolder:{removeErroringBlockEntities=false, removeErroringEntities=false, fullBoundingBoxLadders=false, permissionHandler=neoforge:default_handler, advertiseDedicatedServerToLan=true}}, path=null, modConfig=net.neoforged.fml.config.ModConfig@512ae877] at path neoforge-server.toml with synced config
+[STDOUT] [20:28:45] [Netty Client IO #5/WARN] [co.pi.pi.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[STDOUT] [20:28:45] [Netty Client IO #5/WARN] [co.pi.pi.Pixelmon/]: Attack name invalid: Tera Starstorm
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: equal Weight: 0
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: uncommon Weight: 40
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: haunted Weight: 0
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: common Weight: 50
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: legendary Weight: 10
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: ultimate Weight: 1
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: rare Weight: 30
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: notboss Weight: 0
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: epic Weight: 20
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Decoding: drowned Weight: 0
+[STDOUT] [20:28:45] [Netty Client IO #5/INFO] [co.pi.pi.Pixelmon/]: Registering Better Spawner.
+[STDOUT] [20:28:46] [Render thread/INFO] [minecraft/AdvancementTree]: Loaded 3 advancements

@@ -1,0 +1,1049 @@
+[05May2026 20:27:10.199] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[05May2026 20:27:10.200] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[05May2026 20:27:10.237] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[05May2026 20:27:10.238] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[05May2026 20:27:10.240] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[05May2026 20:27:10.241] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[05May2026 20:27:10.253] [main/DEBUG] [mixin/]: Mixing MixinComponentSerialization from mixins.pixelmon.json into net.minecraft.network.chat.ComponentSerialization
+[05May2026 20:27:10.262] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$4(Lnet/minecraft/network/chat/Component;)Lcom/mojang/datafixers/util/Either; to mdc8145f$pixelmon$lambda$createCodec$4$0 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[05May2026 20:27:10.263] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$3(Lcom/mojang/datafixers/util/Either;)Lnet/minecraft/network/chat/Component; to mdc8145f$pixelmon$lambda$createCodec$3$1 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[05May2026 20:27:10.264] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$2(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component; to mdc8145f$pixelmon$lambda$createCodec$2$2 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[05May2026 20:27:10.264] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$1(Lcom/mojang/datafixers/util/Either;)Lnet/minecraft/network/chat/Component; to mdc8145f$pixelmon$lambda$createCodec$1$3 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[05May2026 20:27:10.264] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$0(Lcom/mojang/serialization/MapCodec;Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App; to mdc8145f$pixelmon$lambda$createCodec$0$4 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[05May2026 20:27:10.361] [main/DEBUG] [mixin/]: Mixing access.INbtCompound from c2me-base.mixins.json into net.minecraft.nbt.CompoundTag
+[05May2026 20:27:10.396] [main/DEBUG] [mixin/]: Mixing MutableComponentAccessor from mixins.pixelmon.json into net.minecraft.network.chat.MutableComponent
+[05May2026 20:27:10.397] [main/DEBUG] [mixin/]: Renaming @Invoker method invokeConstructor(Lnet/minecraft/network/chat/ComponentContents;Ljava/util/List;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent; to invokeConstructor$pixelmon_$md$c8145f$0 in mixins.pixelmon.json:MutableComponentAccessor from mod pixelmon
+[05May2026 20:27:10.425] [main/DEBUG] [mixin/]: Mixing MixinIdentifier from c2me-opts-allocs.mixins.json into net.minecraft.resources.ResourceLocation
+[05May2026 20:27:11.002] [main/DEBUG] [mixin/]: Mixing MixinUtil from c2me-opts-allocs.mixins.json into net.minecraft.Util
+[05May2026 20:27:11.003] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$combineCancellable$2(Ljava/util/concurrent/CompletableFuture;Ljava/util/List;Ljava/lang/Object;Ljava/lang/Throwable;)V to mdc8145f$c2me_opts_allocs$lambda$combineCancellable$2$0 in c2me-opts-allocs.mixins.json:MixinUtil from mod c2me_opts_allocs
+[05May2026 20:27:11.003] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$combineCancellable$1(Ljava/util/concurrent/CompletableFuture;)V to mdc8145f$c2me_opts_allocs$lambda$combineCancellable$1$1 in c2me-opts-allocs.mixins.json:MixinUtil from mod c2me_opts_allocs
+[05May2026 20:27:11.004] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$combine$0(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Object;Ljava/lang/Throwable;)V to mdc8145f$c2me_opts_allocs$lambda$combine$0$2 in c2me-opts-allocs.mixins.json:MixinUtil from mod c2me_opts_allocs
+[05May2026 20:27:11.360] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@5c60b0a0
+[05May2026 20:27:11.610] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 280 milliseconds
+[05May2026 20:27:11.723] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@5c60b0a0
+[05May2026 20:27:11.812] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[05May2026 20:27:11.899] [pool-19-thread-1/DEBUG] [mixin/]: Mixing tlcache.MixinBlock from c2me-opts-worldgen-vanilla.mixins.json into net.minecraft.world.level.block.Block
+[05May2026 20:27:11.904] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0()Lit/unimi/dsi/fastutil/objects/Object2BooleanLinkedOpenHashMap; to mdc8145f$c2me_opts_worldgen_vanilla$lambda$static$0$0 in c2me-opts-worldgen-vanilla.mixins.json:tlcache.MixinBlock from mod c2me_opts_worldgen_vanilla
+[05May2026 20:27:11.950] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IState from c2me-base.mixins.json into net.minecraft.world.level.block.state.StateHolder
+[05May2026 20:27:11.966] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinEntity from mixins.pixelmon.json into net.minecraft.world.entity.Entity
+[05May2026 20:27:11.989] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinEntity from mod pixelmon->@Inject::onBuild(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/network/syncher/SynchedEntityData$Builder;)V doesn't use it's CallbackInfo
+[05May2026 20:27:11.989] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinEntity from mod pixelmon->@Inject::onBuild(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/network/syncher/SynchedEntityData$Builder;)V has 0 override(s) in child classes
+[05May2026 20:27:11.989] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinEntity from mod pixelmon->@Inject::onBuild(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/network/syncher/SynchedEntityData$Builder;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:12.019] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinPlayer from mixins.pixelmon.json into net.minecraft.world.entity.player.Player
+[05May2026 20:27:12.040] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinPlayer from mod pixelmon->@Inject::onHurt(Lnet/minecraft/world/damagesource/DamageSource;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[05May2026 20:27:12.040] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinPlayer from mod pixelmon->@Inject::onHurt(Lnet/minecraft/world/damagesource/DamageSource;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[05May2026 20:27:12.040] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinPlayer from mod pixelmon->@Inject::onHurt(Lnet/minecraft/world/damagesource/DamageSource;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[05May2026 20:27:12.081] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinLivingEntity from mixins.pixelmon.json into net.minecraft.world.entity.LivingEntity
+[05May2026 20:27:12.089] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinLivingEntity from mod pixelmon->@Inject::onEquip(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:12.089] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinLivingEntity from mod pixelmon->@Inject::onEquip(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:12.089] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinLivingEntity from mod pixelmon->@Inject::onEquip(Lnet/minecraft/world/entity/EquipmentSlot;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:12.120] [pool-19-thread-1/DEBUG] [mixin/]: Generating mapped inner class net/minecraft/world/level/block/Block$Anonymous$612cd76995674bc796a11e206c4a88be (originally com/ishland/c2me/opts/worldgen/vanilla/mixin/tlcache/MixinBlock$1)
+[05May2026 20:27:12.127] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading_detections.random_instances.MixinWorld from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.Level
+[05May2026 20:27:12.127] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$redirectWorldRandomInit$0()Ljava/lang/Thread; to mdc8145f$c2me_fixes_worldgen_threading_issues$lambda$redirectWorldRandomInit$0$0 in c2me-fixes-worldgen-threading-issues.mixins.json:threading_detections.random_instances.MixinWorld from mod c2me_fixes_worldgen_threading_issues
+[05May2026 20:27:12.131] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinWorld from c2me-notickvd.mixins.json into net.minecraft.world.level.Level
+[05May2026 20:27:12.133] [pool-19-thread-1/DEBUG] [mixin/]: Mixing mid_tick_chunk_tasks.MixinWorld from c2me-opts-scheduling.mixins.json into net.minecraft.world.level.Level
+[05May2026 20:27:12.143] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinWorld from mod c2me_opts_scheduling->@Inject::onPostTickEntity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:12.143] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinWorld from mod c2me_opts_scheduling->@Inject::onPostTickEntity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:12.143] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinWorld from mod c2me_opts_scheduling->@Inject::onPostTickEntity(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:12.153] [pool-19-thread-1/DEBUG] [mixin/]: Mixing fastchunkentityaccess.ServerLevelMixin from krypton_hybrid.mixins.json into net.minecraft.server.level.ServerLevel
+[05May2026 20:27:12.154] [pool-19-thread-1/DEBUG] [mixin/]: Mixing mid_tick_chunk_tasks.MixinServerWorld from c2me-opts-scheduling.mixins.json into net.minecraft.server.level.ServerLevel
+[05May2026 20:27:12.154] [pool-19-thread-1/DEBUG] [mixin/]: Mixing shutdown.MixinServerWorld from c2me-opts-scheduling.mixins.json into net.minecraft.server.level.ServerLevel
+[05May2026 20:27:12.161] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerWorld from mod c2me_opts_scheduling->@Inject::onPostTickBlockAndFluid(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:12.161] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerWorld from mod c2me_opts_scheduling->@Inject::onPostTickBlockAndFluid(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:12.161] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerWorld from mod c2me_opts_scheduling->@Inject::onPostTickBlockAndFluid(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:12.162] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerWorld from mod c2me_opts_scheduling->@Inject::onPostTickBlockAndFluid(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:12.162] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerWorld from mod c2me_opts_scheduling->@Inject::onPostTickBlockAndFluid(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:12.162] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerWorld from mod c2me_opts_scheduling->@Inject::onPostTickBlockAndFluid(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:12.162] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:shutdown.MixinServerWorld from mod c2me_opts_scheduling->@Inject::replaceEntityFlushLogic(Lnet/minecraft/util/ProgressListener;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:12.162] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:shutdown.MixinServerWorld from mod c2me_opts_scheduling->@Inject::replaceEntityFlushLogic(Lnet/minecraft/util/ProgressListener;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:12.162] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:shutdown.MixinServerWorld from mod c2me_opts_scheduling->@Inject::replaceEntityFlushLogic(Lnet/minecraft/util/ProgressListener;ZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:12.325] [pool-19-thread-1/DEBUG] [mixin/]: Mixing network.microopt.FriendlyByteBufMixin from krypton_hybrid.mixins.json into net.minecraft.network.FriendlyByteBuf
+[05May2026 20:27:12.354] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::writeUtf$kryptonfnp(Ljava/lang/String;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.355] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readVarInt$kryptonfnp(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.355] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readUtf$kryptonGuard(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[05May2026 20:27:12.355] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readUtf$kryptonGuard(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[05May2026 20:27:12.355] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readUtf$kryptonGuard(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[05May2026 20:27:12.355] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readByteArray$kryptonGuard(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.355] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readCollection$kryptonGuard(Ljava/util/function/IntFunction;Lnet/minecraft/network/codec/StreamDecoder;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.355] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readMap$kryptonGuard(Ljava/util/function/IntFunction;Lnet/minecraft/network/codec/StreamDecoder;Lnet/minecraft/network/codec/StreamDecoder;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.356] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readMapSimple$kryptonGuard(Lnet/minecraft/network/codec/StreamDecoder;Lnet/minecraft/network/codec/StreamDecoder;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.356] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::readWithCount$kryptonGuard(Ljava/util/function/Consumer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[05May2026 20:27:12.356] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::writeVarInt$kryptonfnp(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.356] [pool-19-thread-1/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.FriendlyByteBufMixin from mod krypton_hybrid->@Inject::writeVarLong$kryptonfnp(JLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:12.542] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinCakeBlock from mixins.pixelmon.json into net.minecraft.world.level.block.CakeBlock
+[05May2026 20:27:12.548] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinCakeBlock from mod pixelmon->@Inject::onEat(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[05May2026 20:27:12.787] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IFlowableFluid from c2me-base.mixins.json into net.minecraft.world.level.material.FlowingFluid
+[05May2026 20:27:12.822] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinRandomizedIntBlockStateProvider from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.feature.stateproviders.RandomizedIntStateProvider
+[05May2026 20:27:12.841] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IBlockEntity from c2me-base.mixins.json into net.minecraft.world.level.block.entity.BlockEntity
+[05May2026 20:27:13.167] [pool-19-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[05May2026 20:27:13.836] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinServerPlayer from mixins.pixelmon.json into net.minecraft.server.level.ServerPlayer
+[05May2026 20:27:13.838] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$getPokedex$3(Lcom/pixelmonmod/pixelmon/api/pokedex/PokedexStorage;)Lcom/pixelmonmod/pixelmon/api/pokedex/PokedexStorage; to mdc8145f$pixelmon$lambda$getPokedex$3$0 in mixins.pixelmon.json:MixinServerPlayer from mod pixelmon
+[05May2026 20:27:13.839] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$getResearch$2(Lcom/pixelmonmod/pixelmon/api/storage/research/ResearchStorage;)Lcom/pixelmonmod/pixelmon/api/storage/research/ResearchStorage; to mdc8145f$pixelmon$lambda$getResearch$2$1 in mixins.pixelmon.json:MixinServerPlayer from mod pixelmon
+[05May2026 20:27:13.840] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$getBankAccount$1(Lcom/pixelmonmod/pixelmon/api/economy/BankAccount;)Lcom/pixelmonmod/pixelmon/api/economy/BankAccount; to mdc8145f$pixelmon$lambda$getBankAccount$1$2 in mixins.pixelmon.json:MixinServerPlayer from mod pixelmon
+[05May2026 20:27:13.842] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$getParty$0(Lcom/pixelmonmod/pixelmon/api/storage/PlayerPartyStorage;)Lcom/pixelmonmod/pixelmon/api/storage/PlayerPartyStorage; to mdc8145f$pixelmon$lambda$getParty$0$3 in mixins.pixelmon.json:MixinServerPlayer from mod pixelmon
+[05May2026 20:27:13.861] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinServerPlayer from mod pixelmon->@Inject::onCraft(Lnet/minecraft/world/item/crafting/RecipeHolder;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:13.861] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinServerPlayer from mod pixelmon->@Inject::onCraft(Lnet/minecraft/world/item/crafting/RecipeHolder;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:13.861] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinServerPlayer from mod pixelmon->@Inject::onCraft(Lnet/minecraft/world/item/crafting/RecipeHolder;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:14.079] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.math.MixinDirectionTransformation from c2me-fixes-worldgen-threading-issues.mixins.json into com.mojang.math.OctahedralGroup
+[05May2026 20:27:14.082] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.math.MixinDirectionTransformation from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:14.333] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinBlockItem from mixins.pixelmon.json into net.minecraft.world.item.BlockItem
+[05May2026 20:27:14.337] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinBlockItem from mod pixelmon->@Inject::onBlockPlace(Lnet/minecraft/world/item/context/BlockPlaceContext;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/context/BlockPlaceContext;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)V doesn't use it's CallbackInfoReturnable
+[05May2026 20:27:14.337] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinBlockItem from mod pixelmon->@Inject::onBlockPlace(Lnet/minecraft/world/item/context/BlockPlaceContext;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/context/BlockPlaceContext;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)V has 0 override(s) in child classes
+[05May2026 20:27:14.337] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinBlockItem from mod pixelmon->@Inject::onBlockPlace(Lnet/minecraft/world/item/context/BlockPlaceContext;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/context/BlockPlaceContext;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)V won't be passed a CallbackInfoReturnable as a result
+[05May2026 20:27:14.508] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinChunk from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.chunk.ChunkAccess
+[05May2026 20:27:14.512] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinWorldChunk from c2me-notickvd.mixins.json into net.minecraft.world.level.chunk.LevelChunk
+[05May2026 20:27:14.513] [pool-19-thread-1/DEBUG] [mixin/]: Mixing fluid_postprocessing.MixinWorldChunk from c2me-rewrites-chunk-system.mixins.json into net.minecraft.world.level.chunk.LevelChunk
+[05May2026 20:27:14.513] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IWorldChunk from c2me-base.mixins.json into net.minecraft.world.level.chunk.LevelChunk
+[05May2026 20:27:14.623] [pool-19-thread-1/DEBUG] [mixin/]: Mixing PathFinderAccessor from mixins.pixelmon.json into net.minecraft.world.entity.ai.navigation.PathNavigation
+[05May2026 20:27:15.564] [pool-19-thread-1/DEBUG] [mixin/]: Mixing object_pooling_caching.MixinOreFeature from c2me-opts-allocs.mixins.json into net.minecraft.world.level.levelgen.feature.OreFeature
+[05May2026 20:27:15.586] [pool-19-thread-1/DEBUG] [mixin/]: Mixing random_instances.MixinRedirectAtomicSimpleRandom from c2me-opts-worldgen-general.mixins.json into net.minecraft.world.level.levelgen.feature.GeodeFeature
+[05May2026 20:27:15.625] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinChunkPos from c2me-opts-math.mixins.json into net.minecraft.world.level.ChunkPos
+[05May2026 20:27:15.733] [pool-19-thread-1/DEBUG] [mixin/]: Mixing random_instances.MixinRedirectAtomicSimpleRandom from c2me-opts-worldgen-general.mixins.json into net.minecraft.world.level.levelgen.structure.placement.RandomSpreadStructurePlacement
+[05May2026 20:27:15.735] [pool-19-thread-1/DEBUG] [mixin/]: Mixing random_instances.MixinRedirectAtomicSimpleRandomStatic from c2me-opts-worldgen-general.mixins.json into net.minecraft.world.level.levelgen.structure.placement.StructurePlacement
+[05May2026 20:27:15.754] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IStructurePiece from c2me-base.mixins.json into net.minecraft.world.level.levelgen.structure.StructurePiece
+[05May2026 20:27:15.759] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinMineshaftGeneratorMineshaftCorridor from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftCorridor
+[05May2026 20:27:15.761] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/MineshaftPieces$MineShaftCorridor;hasPlacedSpider:Z volatile
+[05May2026 20:27:15.765] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinMineshaftGeneratorMineshaftRoom from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.MineshaftPieces$MineShaftRoom
+[05May2026 20:27:15.770] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinMineshaftGeneratorMineshaftRoom from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:15.770] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinMineshaftGeneratorMineshaftRoom from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:15.770] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinMineshaftGeneratorMineshaftRoom from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:15.773] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinNetherFortressGeneratorPiece from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$NetherBridgePiece
+[05May2026 20:27:15.782] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinNetherFortressGeneratorCorridorLeftTurn from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorLeftTurnPiece
+[05May2026 20:27:15.783] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/NetherFortressPieces$CastleSmallCorridorLeftTurnPiece;isNeedingChest:Z volatile
+[05May2026 20:27:15.785] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinNetherFortressGeneratorCorridorRightTurn from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$CastleSmallCorridorRightTurnPiece
+[05May2026 20:27:15.787] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/NetherFortressPieces$CastleSmallCorridorRightTurnPiece;isNeedingChest:Z volatile
+[05May2026 20:27:15.789] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinNetherFortressGeneratorBridgePlatform from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$MonsterThrone
+[05May2026 20:27:15.790] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/NetherFortressPieces$MonsterThrone;hasPlacedSpawner:Z volatile
+[05May2026 20:27:15.794] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinNetherFortressGeneratorStart from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.NetherFortressPieces$StartPiece
+[05May2026 20:27:15.796] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinNetherFortressGeneratorStart from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:15.797] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinNetherFortressGeneratorStart from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:15.797] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinNetherFortressGeneratorStart from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:15.797] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/NetherFortressPieces$StartPiece;previousPiece:Lnet/minecraft/world/level/levelgen/structure/structures/NetherFortressPieces$PieceWeight; volatile
+[05May2026 20:27:15.799] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinStrongholdGeneratorChestCorridor from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$ChestCorridor
+[05May2026 20:27:15.799] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$ChestCorridor;hasPlacedChest:Z volatile
+[05May2026 20:27:15.807] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinStrongholdGeneratorPortalRoom from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$PortalRoom
+[05May2026 20:27:15.807] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$PortalRoom;hasPlacedSpawner:Z volatile
+[05May2026 20:27:15.812] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinStrongholdGeneratorSpiralStaircase from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StairsDown
+[05May2026 20:27:15.816] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinStrongholdGeneratorStart from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.StrongholdPieces$StartPiece
+[05May2026 20:27:15.817] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinStrongholdGeneratorStart from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:15.817] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinStrongholdGeneratorStart from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:15.817] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinStrongholdGeneratorStart from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:15.818] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$StartPiece;previousPiece:Lnet/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$PieceWeight; volatile
+[05May2026 20:27:15.818] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$StartPiece;portalRoomPiece:Lnet/minecraft/world/level/levelgen/structure/structures/StrongholdPieces$PortalRoom; volatile
+[05May2026 20:27:15.820] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinJungleTempleGenerator from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.JungleTemplePiece
+[05May2026 20:27:15.829] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinShiftableStructurePiece from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.ScatteredFeaturePiece
+[05May2026 20:27:15.830] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/ScatteredFeaturePiece;heightPosition:I volatile
+[05May2026 20:27:15.839] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinSwampHutGenerator from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.SwampHutPiece
+[05May2026 20:27:15.840] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;spawnedWitch:Z volatile
+[05May2026 20:27:15.840] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;spawnedCat:Z volatile
+[05May2026 20:27:15.842] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinDesertTempleGenerator from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.DesertPyramidPiece
+[05May2026 20:27:15.848] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinDesertTempleGenerator from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:15.848] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinDesertTempleGenerator from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:15.848] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.MixinDesertTempleGenerator from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:15.853] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinOceanMonumentGeneratorBase from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.structures.OceanMonumentPieces$MonumentBuilding
+[05May2026 20:27:15.854] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$MonumentBuilding;sourceRoom:Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$RoomDefinition; volatile
+[05May2026 20:27:15.855] [pool-19-thread-1/DEBUG] [C2ME (c2me-fixes-worldgen-threading-issues) ASM Transformer/]: Making field Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$MonumentBuilding;coreRoom:Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$RoomDefinition; volatile
+[05May2026 20:27:15.890] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinStructurePoolElement from c2me-fixes-chunkio-threading-issues.mixins.json into net.minecraft.world.level.levelgen.structure.pools.StructurePoolElement
+[05May2026 20:27:15.893] [pool-19-thread-1/DEBUG] [mixin/]: c2me-fixes-chunkio-threading-issues.mixins.json:MixinStructurePoolElement from mod c2me_fixes_chunkio_threading_issues->@Inject::onCLInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:16.002] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.ISimplexNoiseSampler from c2me-base.mixins.json into net.minecraft.world.level.levelgen.synth.SimplexNoise
+[05May2026 20:27:16.006] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IMultiNoiseBiomeSource from c2me-base.mixins.json into net.minecraft.world.level.biome.MultiNoiseBiomeSource
+[05May2026 20:27:16.023] [pool-19-thread-1/DEBUG] [mixin/]: Mixing the_end_biome_cache.MixinTheEndBiomeSource from c2me-opts-worldgen-vanilla.mixins.json into net.minecraft.world.level.biome.TheEndBiomeSource
+[05May2026 20:27:16.043] [pool-19-thread-1/DEBUG] [mixin/]: Mixing threading.MixinNoiseChunkGenerator from c2me-fixes-worldgen-threading-issues.mixins.json into net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator
+[05May2026 20:27:16.044] [pool-19-thread-1/DEBUG] [mixin/]: Mixing random_instances.MixinRedirectAtomicSimpleRandom from c2me-opts-worldgen-general.mixins.json into net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator
+[05May2026 20:27:16.045] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinNoiseChunkGenerator from c2me-rewrites-chunk-system.mixins.json into net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator
+[05May2026 20:27:16.052] [pool-19-thread-1/DEBUG] [mixin/]: Mixing random_instances.MixinRedirectAtomicSimpleRandom from c2me-opts-worldgen-general.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[05May2026 20:27:16.053] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinChunkGenerator from c2me-rewrites-chunk-system.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[05May2026 20:27:16.053] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IChunkGenerator from c2me-base.mixins.json into net.minecraft.world.level.chunk.ChunkGenerator
+[05May2026 20:27:16.110] [pool-19-thread-1/DEBUG] [mixin/]: Mixing surfacebuilder.MixinMaterialRulesSequenceMaterialRule from c2me-opts-allocs.mixins.json into net.minecraft.world.level.levelgen.SurfaceRules$SequenceRuleSource
+[05May2026 20:27:16.110] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$onInit$0(I)[Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource; to mdc8145f$c2me_opts_allocs$lambda$onInit$0$0 in c2me-opts-allocs.mixins.json:surfacebuilder.MixinMaterialRulesSequenceMaterialRule from mod c2me_opts_allocs
+[05May2026 20:27:16.115] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-allocs.mixins.json:surfacebuilder.MixinMaterialRulesSequenceMaterialRule from mod c2me_opts_allocs->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:16.120] [pool-19-thread-1/DEBUG] [mixin/]: Mixing surfacebuilder.MixinMaterialRulesSequenceBlockStateRule from c2me-opts-allocs.mixins.json into net.minecraft.world.level.levelgen.SurfaceRules$SequenceRule
+[05May2026 20:27:16.120] [pool-19-thread-1/DEBUG] [mixin/]: Renaming synthetic method lambda$onInit$0(I)[Lnet/minecraft/world/level/levelgen/SurfaceRules$SurfaceRule; to mdc8145f$c2me_opts_allocs$lambda$onInit$0$0 in c2me-opts-allocs.mixins.json:surfacebuilder.MixinMaterialRulesSequenceBlockStateRule from mod c2me_opts_allocs
+[05May2026 20:27:16.122] [pool-19-thread-1/DEBUG] [mixin/]: c2me-opts-allocs.mixins.json:surfacebuilder.MixinMaterialRulesSequenceBlockStateRule from mod c2me_opts_allocs->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:16.128] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IInterpolatedNoiseSampler from c2me-base.mixins.json into net.minecraft.world.level.levelgen.synth.BlendedNoise
+[05May2026 20:27:16.143] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IDensityFunctionTypesWeirdScaledSamplerRarityValueMapper from c2me-base.mixins.json into net.minecraft.world.level.levelgen.DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[05May2026 20:27:16.146] [pool-19-thread-1/DEBUG] [mixin/]: Mixing access.IDensityFunctionsCaveScaler from c2me-base.mixins.json into net.minecraft.world.level.levelgen.NoiseRouterData$QuantizedSpaghettiRarity
+[05May2026 20:27:16.146] [pool-19-thread-1/DEBUG] [mixin/]: Renaming @Invoker method invokeScaleCaves(D)D to invokeScaleCaves$c2me_base_$md$c8145f$0 in c2me-base.mixins.json:access.IDensityFunctionsCaveScaler from mod c2me_base
+[05May2026 20:27:16.146] [pool-19-thread-1/DEBUG] [mixin/]: Renaming @Invoker method invokeScaleTunnels(D)D to invokeScaleTunnels$c2me_base_$md$c8145f$1 in c2me-base.mixins.json:access.IDensityFunctionsCaveScaler from mod c2me_base
+[05May2026 20:27:16.209] [pool-19-thread-1/DEBUG] [mixin/]: Mixing MixinConsumeItemTrigger from mixins.pixelmon.json into net.minecraft.advancements.critereon.ConsumeItemTrigger
+[05May2026 20:27:16.211] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinConsumeItemTrigger from mod pixelmon->@Inject::onTrigger(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:16.211] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinConsumeItemTrigger from mod pixelmon->@Inject::onTrigger(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:16.212] [pool-19-thread-1/DEBUG] [mixin/]: mixins.pixelmon.json:MixinConsumeItemTrigger from mod pixelmon->@Inject::onTrigger(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:16.437] [Render thread/DEBUG] [mixin/]: Mixing fastchunkentityaccess.ClientLevelMixin from krypton_hybrid.mixins.json into net.minecraft.client.multiplayer.ClientLevel
+[05May2026 20:27:16.453] [Render thread/DEBUG] [mixin/]: Mixing MixinLocalPlayer from mixins.pixelmon.json into net.minecraft.client.player.LocalPlayer
+[05May2026 20:27:16.574] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/USER/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[05May2026 20:27:16.575] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/USER/curseforge/minecraft/Install/libraries/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[05May2026 20:27:16.605] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05May2026 20:27:16.616] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: jaero_ro
+[05May2026 20:27:16.621] [Render thread/DEBUG] [mixin/]: Mixing MixinGameOptions from c2me-client-uncapvd.mixins.json into net.minecraft.client.Options
+[05May2026 20:27:16.624] [Render thread/DEBUG] [mixin/]: c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:16.624] [Render thread/DEBUG] [mixin/]: c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:16.624] [Render thread/DEBUG] [mixin/]: c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:16.624] [Render thread/DEBUG] [mixin/]: c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd->@Inject::beforeSendSettings(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:16.624] [Render thread/DEBUG] [mixin/]: c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd->@Inject::beforeSendSettings(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:16.624] [Render thread/DEBUG] [mixin/]: c2me-client-uncapvd.mixins.json:MixinGameOptions from mod c2me_client_uncapvd->@Inject::beforeSendSettings(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:16.633] [Render thread/DEBUG] [mixin/]: Mixing ISimpleOption from c2me-client-uncapvd.mixins.json into net.minecraft.client.OptionInstance
+[05May2026 20:27:16.718] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[05May2026 20:27:16.952] [Render thread/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[05May2026 20:27:16.961] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_fixes_worldgen_threading_issues
+[05May2026 20:27:16.961] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_threading_lighting
+[05May2026 20:27:16.962] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_fixes_chunkio_threading_issues
+[05May2026 20:27:16.963] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.ishland.c2me.client.uncapvd.common.UncapVDInitializer]
+[05May2026 20:27:16.968] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.ishland.c2me.rewrites.chunk_serializer.TheMod]
+[05May2026 20:27:16.969] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_server_utils
+[05May2026 20:27:16.969] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_natives_math
+[05May2026 20:27:16.969] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_dfc
+[05May2026 20:27:16.969] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_fixes_general_threading_issues
+[05May2026 20:27:16.970] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[05May2026 20:27:16.973] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.ishland.c2me.notickvd.common.NoTickVDInitializer]
+[05May2026 20:27:16.974] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.xinian.KryptonHybrid.kryptonhybrid]
+[05May2026 20:27:16.974] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_worldgen_general
+[05May2026 20:27:16.974] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_chunkio
+[05May2026 20:27:16.974] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_math
+[05May2026 20:27:16.974] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.ishland.c2me.C2MEMod]
+[05May2026 20:27:16.976] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_rewrites_chunk_system
+[05May2026 20:27:16.976] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.ishland.c2me.base.C2MEBaseMod]
+[05May2026 20:27:16.976] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_rewrites_chunkio
+[05May2026 20:27:16.976] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_worldgen_vanilla
+[05May2026 20:27:16.976] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_fixes_worldgen_vanilla_bugs
+[05May2026 20:27:16.976] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_scheduling
+[05May2026 20:27:16.976] [Render thread/DEBUG] [net.neoforged.fml.lowcodemod.LowCodeModContainer/LOADING]: Creating LowCodeModContainer for c2me_opts_allocs
+[05May2026 20:27:16.977] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.pixelmonmod.pixelmon.Pixelmon]
+[05May2026 20:27:16.980] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.pixelmonmod.tcg.TCG]
+[05May2026 20:27:16.985] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for c2me_rewrites_chunk_serializer
+[05May2026 20:27:16.988] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for c2me
+[05May2026 20:27:16.994] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for c2me_client_uncapvd
+[05May2026 20:27:16.994] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for c2me_notickvd
+[05May2026 20:27:16.997] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.997] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.997] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.997] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.998] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.998] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.998] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.999] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.999] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[05May2026 20:27:16.999] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for c2me_base
+[05May2026 20:27:17.007] [modloading-worker-0/DEBUG] [mixin/]: Mixing asynccatchers.MixinMinecraftServer from c2me-fixes-general-threading-issues.mixins.json into net.minecraft.server.MinecraftServer
+[05May2026 20:27:17.010] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinMinecraftServer from c2me-notickvd.mixins.json into net.minecraft.server.MinecraftServer
+[05May2026 20:27:17.010] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinMinecraftServer from c2me-rewrites-chunk-system.mixins.json into net.minecraft.server.MinecraftServer
+[05May2026 20:27:17.014] [modloading-worker-0/DEBUG] [mixin/]: Mixing idle_tasks.autosave.enhanced_autosave.MixinMinecraftServer from c2me-opts-scheduling.mixins.json into net.minecraft.server.MinecraftServer
+[05May2026 20:27:17.017] [modloading-worker-0/DEBUG] [mixin/]: Mixing mid_tick_chunk_tasks.MixinMinecraftServer from c2me-opts-scheduling.mixins.json into net.minecraft.server.MinecraftServer
+[05May2026 20:27:17.018] [modloading-worker-0/DEBUG] [mixin/]: Mixing shutdown.MixinMinecraftServer from c2me-opts-scheduling.mixins.json into net.minecraft.server.MinecraftServer
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues->@Inject::preventAsyncSave(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues->@Inject::preventAsyncSave(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues->@Inject::preventAsyncSave(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues->@Inject::preventAsyncSaveAll(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues->@Inject::preventAsyncSaveAll(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinMinecraftServer from mod c2me_fixes_general_threading_issues->@Inject::preventAsyncSaveAll(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-notickvd.mixins.json:MixinMinecraftServer from mod c2me_notickvd->@Inject::stopNoTickVD(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-notickvd.mixins.json:MixinMinecraftServer from mod c2me_notickvd->@Inject::stopNoTickVD(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:17.041] [modloading-worker-0/DEBUG] [mixin/]: c2me-notickvd.mixins.json:MixinMinecraftServer from mod c2me_notickvd->@Inject::stopNoTickVD(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:17.042] [modloading-worker-0/DEBUG] [mixin/]: c2me-rewrites-chunk-system.mixins.json:MixinMinecraftServer from mod c2me_rewrites_chunk_system->@Inject::onTaskWait(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:17.042] [modloading-worker-0/DEBUG] [mixin/]: c2me-rewrites-chunk-system.mixins.json:MixinMinecraftServer from mod c2me_rewrites_chunk_system->@Inject::onTaskWait(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:17.042] [modloading-worker-0/DEBUG] [mixin/]: c2me-rewrites-chunk-system.mixins.json:MixinMinecraftServer from mod c2me_rewrites_chunk_system->@Inject::onTaskWait(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:17.068] [modloading-worker-0/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:shutdown.MixinMinecraftServer from mod c2me_opts_scheduling->@Inject::shutdownBeforeRunTasks(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:17.068] [modloading-worker-0/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:shutdown.MixinMinecraftServer from mod c2me_opts_scheduling->@Inject::shutdownBeforeRunTasks(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:17.068] [modloading-worker-0/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:shutdown.MixinMinecraftServer from mod c2me_opts_scheduling->@Inject::shutdownBeforeRunTasks(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:17.079] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.1.228
+[05May2026 20:27:17.080] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 4.0.42
+[05May2026 20:27:17.080] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.228, for MC 1.21.1
+[05May2026 20:27:17.086] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file krypton_hybrid-common.toml for krypton_hybrid tracking
+[05May2026 20:27:17.091] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[05May2026 20:27:17.092] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[05May2026 20:27:17.092] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[05May2026 20:27:17.090] [modloading-worker-0/INFO] [com.xinian.KryptonHybrid.shared.KryptonSharedBootstrap/]: Krypton is now accelerating your Minecraft client's networking stack 🚀
+[05May2026 20:27:17.093] [modloading-worker-0/INFO] [com.xinian.KryptonHybrid.shared.KryptonSharedBootstrap/]: Note that Krypton is most effective on servers, not the client.
+[05May2026 20:27:17.126] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[05May2026 20:27:17.127] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[05May2026 20:27:17.129] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b706c93
+[05May2026 20:27:17.169] [modloading-worker-0/INFO] [com.xinian.KryptonHybrid.shared.KryptonSharedBootstrap/]: Compression will use RecastXZ 3 (Windows x86_64), encryption will use Java
+[05May2026 20:27:17.169] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for krypton_hybrid
+[05May2026 20:27:17.173] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[05May2026 20:27:17.173] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.server.command.ConfigCommand for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.176] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/server/command/ConfigCommand; to the game event bus
+[05May2026 20:27:17.178] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.221] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[05May2026 20:27:17.222] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[05May2026 20:27:17.229] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[05May2026 20:27:17.248] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[05May2026 20:27:17.248] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[05May2026 20:27:17.248] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[05May2026 20:27:17.251] [modloading-worker-0/DEBUG] [mixin/]: Mixing network.flushconsolidation.ConnectionMixin from krypton_hybrid.mixins.json into net.minecraft.network.Connection
+[05May2026 20:27:17.255] [modloading-worker-0/DEBUG] [mixin/]: Mixing network.pipeline.compression.ConnectionMixin from krypton_hybrid.mixins.json into net.minecraft.network.Connection
+[05May2026 20:27:17.259] [modloading-worker-0/DEBUG] [mixin/]: Mixing network.pipeline.encryption.ConnectionMixin from krypton_hybrid.mixins.json into net.minecraft.network.Connection
+[05May2026 20:27:17.267] [modloading-worker-0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ConnectionMixin from mod krypton_hybrid->@Inject::kryptonfnp$initAutoFlush(Lnet/minecraft/network/protocol/PacketFlow;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:17.267] [modloading-worker-0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ConnectionMixin from mod krypton_hybrid->@Inject::kryptonfnp$initAutoFlush(Lnet/minecraft/network/protocol/PacketFlow;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:17.267] [modloading-worker-0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ConnectionMixin from mod krypton_hybrid->@Inject::kryptonfnp$initAutoFlush(Lnet/minecraft/network/protocol/PacketFlow;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:17.267] [modloading-worker-0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.pipeline.compression.ConnectionMixin from mod krypton_hybrid->@Inject::setCompressionThreshold(IZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[05May2026 20:27:17.274] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/filters/GenericPacketSplitter; to the mod event bus of mod neoforge
+[05May2026 20:27:17.276] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.277] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/NetworkInitialization; to the mod event bus of mod neoforge
+[05May2026 20:27:17.277] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.279] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/network/ConfigurationInitialization; to the mod event bus of mod neoforge
+[05May2026 20:27:17.279] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.281] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/MonsterRoomHooks; to the game event bus
+[05May2026 20:27:17.281] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.282] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/DeferredSpawnEggItem$CommonHandler; to the mod event bus of mod neoforge
+[05May2026 20:27:17.283] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.DeferredSpawnEggItem$ColorRegisterHandler for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.284] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/common/DeferredSpawnEggItem$ColorRegisterHandler; to the mod event bus of mod neoforge
+[05May2026 20:27:17.284] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.model.data.ModelDataManager for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.286] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/model/data/ModelDataManager; to the game event bus
+[05May2026 20:27:17.287] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.ParticleBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.293] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/ParticleBoundsDebugRenderer; to the game event bus
+[05May2026 20:27:17.293] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.ClientHooks$ClientEvents for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.295] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/ClientHooks$ClientEvents; to the mod event bus of mod neoforge
+[05May2026 20:27:17.296] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.297] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/client/BlockEntityRenderBoundsDebugRenderer; to the game event bus
+[05May2026 20:27:17.297] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.301] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentSync; to the game event bus
+[05May2026 20:27:17.303] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[05May2026 20:27:17.303] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lnet/neoforged/neoforge/attachment/AttachmentInternals; to the game event bus
+[05May2026 20:27:18.605] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for pixelmon
+[05May2026 20:27:18.606] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.world.dimension.client.ClientDimensionRegistration for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.610] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/world/dimension/client/ClientDimensionRegistration; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.610] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.storage.extras.PixelExtrasStorage for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.612] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/storage/extras/PixelExtrasStorage; to the game event bus
+[05May2026 20:27:18.612] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.listener.ZygardeCellsListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.616] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/listener/ZygardeCellsListener; to the game event bus
+[05May2026 20:27:18.617] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.items.EscapeRopeItem for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.617] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/items/EscapeRopeItem; to the game event bus
+[05May2026 20:27:18.620] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.init.registry.RecipeBookCategoryRegistration for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.622] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/init/registry/RecipeBookCategoryRegistration; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.622] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.init.registry.PixelmonRegistry for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.623] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/init/registry/PixelmonRegistry; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.623] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.init.registry.ParticleRegistration for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.623] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/init/registry/ParticleRegistration; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.623] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.init.registry.ContainerRegistration for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.624] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/init/registry/ContainerRegistration; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.624] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.init.registry.BlockRegistration for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.626] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/init/registry/BlockRegistration; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.626] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.init.loaders.PixelmonLoaders for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.629] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/init/loaders/PixelmonLoaders; to the game event bus
+[05May2026 20:27:18.629] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.render.shader.PixelmonShaders for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.653] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/render/shader/PixelmonShaders; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.654] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.music.PixelmonMusic for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.657] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/music/PixelmonMusic; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.658] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.listener.TooltipListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.658] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/listener/TooltipListener; to the game event bus
+[05May2026 20:27:18.659] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.listener.StorageCloseListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.660] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/listener/StorageCloseListener; to the game event bus
+[05May2026 20:27:18.661] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.listener.SneakingListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.661] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/listener/SneakingListener; to the game event bus
+[05May2026 20:27:18.661] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.listener.SendoutListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.662] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/listener/SendoutListener; to the game event bus
+[05May2026 20:27:18.662] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.listener.EscapeRopeClient for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.663] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/listener/EscapeRopeClient; to the game event bus
+[05May2026 20:27:18.664] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.keybindings.MovementHandler$EventHandler for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.665] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/keybindings/MovementHandler$EventHandler; to the game event bus
+[05May2026 20:27:18.665] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.gui.override.MenuOverrideFactory for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.675] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/gui/override/MenuOverrideFactory; to the game event bus
+[05May2026 20:27:18.677] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.gui.listener.MegaEvolutionListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.678] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/gui/listener/MegaEvolutionListener; to the game event bus
+[05May2026 20:27:18.678] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.ClientProxy for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.740] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/ClientProxy; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.742] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.client.ClientListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.743] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/client/ClientListener; to the game event bus
+[05May2026 20:27:18.743] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.api.util.helpers.WorldHelper for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.745] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/api/util/helpers/WorldHelper; to the game event bus
+[05May2026 20:27:18.745] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.api.util.helpers.PlayerHelper for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.745] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/api/util/helpers/PlayerHelper; to the game event bus
+[05May2026 20:27:18.746] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.api.util.helpers.CursorHelper for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.746] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/api/util/helpers/CursorHelper; to the game event bus
+[05May2026 20:27:18.747] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.api.util.AirSaver for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.747] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/api/util/AirSaver; to the game event bus
+[05May2026 20:27:18.748] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.api.spawning.util.SpawningHeightmap for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.749] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/api/spawning/util/SpawningHeightmap; to the game event bus
+[05May2026 20:27:18.750] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.api.dummy.NameTagRenderListener for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.750] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/api/dummy/NameTagRenderListener; to the game event bus
+[05May2026 20:27:18.750] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.api.config.RegistryHandler for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.752] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/api/config/RegistryHandler; to the game event bus
+[05May2026 20:27:18.752] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.pixelmon.CommonProxy for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.752] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/pixelmon/CommonProxy; to the mod event bus of mod pixelmon
+[05May2026 20:27:18.768] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for tcg
+[05May2026 20:27:18.768] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.tcg.proxy.TCGClientProxy for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.769] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/tcg/proxy/TCGClientProxy; to the mod event bus of mod tcg
+[05May2026 20:27:18.769] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.tcg.listener.TCGClientModEventListeners for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.770] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/tcg/listener/TCGClientModEventListeners; to the mod event bus of mod tcg
+[05May2026 20:27:18.770] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.tcg.listener.TCGClientEventListeners for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.771] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/tcg/listener/TCGClientEventListeners; to the game event bus
+[05May2026 20:27:18.771] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class com.pixelmonmod.tcg.init.registry.TCGRegistry for @SubscribeEvent-annotated methods
+[05May2026 20:27:18.772] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/]: Subscribing @EventBusSubscriber class Lcom/pixelmonmod/tcg/init/registry/TCGRegistry; to the mod event bus of mod tcg
+[05May2026 20:27:20.111] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:20.113] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:20.113] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:20.432] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[05May2026 20:27:20.445] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[05May2026 20:27:20.445] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\config\neoforge-client.toml
+[05May2026 20:27:20.454] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\config\neoforge-client.toml for changes
+[05May2026 20:27:20.454] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[05May2026 20:27:20.476] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\config\krypton_hybrid-common.toml
+[05May2026 20:27:20.477] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\config\krypton_hybrid-common.toml for changes
+[05May2026 20:27:20.477] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[05May2026 20:27:20.478] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\config\neoforge-common.toml
+[05May2026 20:27:20.478] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\USER\curseforge\minecraft\Instances\Pixelmon2\config\neoforge-common.toml for changes
+[05May2026 20:27:20.746] [Render thread/DEBUG] [mixin/]: Mixing threading.math.MixinAffineTransformation from c2me-fixes-worldgen-threading-issues.mixins.json into com.mojang.math.Transformation
+[05May2026 20:27:20.747] [Render thread/DEBUG] [mixin/]: c2me-fixes-worldgen-threading-issues.mixins.json:threading.math.MixinAffineTransformation from mod c2me_fixes_worldgen_threading_issues->@Inject::onInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:20.849] [Render thread/DEBUG] [mixin/]: Mixing client.MixinIntegratedServer from c2me-notickvd.mixins.json into net.minecraft.client.server.IntegratedServer
+[05May2026 20:27:20.851] [Render thread/DEBUG] [mixin/]: c2me-notickvd.mixins.json:client.MixinIntegratedServer from mod c2me_notickvd->@Inject::afterPauseLoop(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:20.851] [Render thread/DEBUG] [mixin/]: c2me-notickvd.mixins.json:client.MixinIntegratedServer from mod c2me_notickvd->@Inject::afterPauseLoop(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:20.851] [Render thread/DEBUG] [mixin/]: c2me-notickvd.mixins.json:client.MixinIntegratedServer from mod c2me_notickvd->@Inject::afterPauseLoop(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:20.915] [Render thread/DEBUG] [mixin/]: Mixing RecipeBookComponentAccessor from mixins.pixelmon.json into net.minecraft.client.gui.screens.recipebook.RecipeBookComponent
+[05May2026 20:27:21.173] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/c2me_fixes_worldgen_threading_issues, mod/c2me_threading_lighting, mod/c2me_fixes_chunkio_threading_issues, mod/c2me_client_uncapvd, mod/c2me_rewrites_chunk_serializer, mod/c2me_server_utils, mod/c2me_opts_natives_math, mod/c2me_opts_dfc, mod/c2me_fixes_general_threading_issues, mod/neoforge, mod/c2me_notickvd, mod/krypton_hybrid, mod/c2me_opts_worldgen_general, mod/c2me_opts_chunkio, mod/c2me_opts_math, mod/c2me, mod/c2me_rewrites_chunk_system, mod/c2me_base, mod/c2me_rewrites_chunkio, mod/c2me_opts_worldgen_vanilla, mod/c2me_fixes_worldgen_vanilla_bugs, mod/c2me_opts_scheduling, mod/c2me_opts_allocs, mod/pixelmon,tcg
+[05May2026 20:27:21.186] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loading Pixelmon version 9.3.14
+[05May2026 20:27:21.190] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loaded Advancements
+[05May2026 20:27:21.209] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[05May2026 20:27:21.217] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[05May2026 20:27:21.224] [Worker-Main-3/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[05May2026 20:27:21.280] [Worker-Main-3/DEBUG] [mixin/]: Mixing network.flushconsolidation.ServerChunkCacheBroadcastMixin from krypton_hybrid.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.307] [Worker-Main-3/DEBUG] [mixin/]: Mixing asynccatchers.MixinServerChunkManager from c2me-fixes-general-threading-issues.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.307] [Worker-Main-3/DEBUG] [mixin/]: Mixing MixinServerChunkManager from c2me-notickvd.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.307] [Worker-Main-3/DEBUG] [mixin/]: Renaming synthetic method lambda$redirectIterateEntities$0(Lit/unimi/dsi/fastutil/longs/Long2ByteMap;Lnet/minecraft/world/entity/Entity;)Z to mdc8145f$c2me_notickvd$lambda$redirectIterateEntities$0$0 in c2me-notickvd.mixins.json:MixinServerChunkManager from mod c2me_notickvd
+[05May2026 20:27:21.309] [Worker-Main-3/DEBUG] [mixin/]: Mixing servercore.MixinServerChunkManager from c2me-notickvd.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.309] [Worker-Main-3/DEBUG] [mixin/]: Mixing MixinServerChunkManager from c2me-rewrites-chunk-system.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.310] [Worker-Main-3/DEBUG] [mixin/]: Renaming synthetic method lambda$consolidateSchedules$0(Ljava/util/Queue;)V to mdc8145f$c2me_rewrites_chunk_system$lambda$consolidateSchedules$0$1 in c2me-rewrites-chunk-system.mixins.json:MixinServerChunkManager from mod c2me_rewrites_chunk_system
+[05May2026 20:27:21.315] [Worker-Main-3/DEBUG] [mixin/]: Mixing access.IServerChunkManager from c2me-base.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.316] [Worker-Main-3/DEBUG] [mixin/]: Mixing instrumentation.MixinServerChunkManager from c2me-base.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.320] [Worker-Main-3/DEBUG] [mixin/]: Mixing scheduler.MixinServerChunkManager from c2me-base.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.320] [Worker-Main-3/DEBUG] [mixin/]: Mixing mid_tick_chunk_tasks.MixinServerChunkManager from c2me-opts-scheduling.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.321] [Worker-Main-3/DEBUG] [mixin/]: Mixing task_scheduling.MixinServerChunkManager from c2me-opts-scheduling.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.322] [Worker-Main-3/DEBUG] [mixin/]: Mixing asm.ASMTargets from c2me-opts-allocs.mixins.json into net.minecraft.server.level.ServerChunkCache
+[05May2026 20:27:21.329] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ServerChunkCacheBroadcastMixin from mod krypton_hybrid->@Inject::krypton$beforeBroadcast(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ServerChunkCacheBroadcastMixin from mod krypton_hybrid->@Inject::krypton$beforeBroadcast(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ServerChunkCacheBroadcastMixin from mod krypton_hybrid->@Inject::krypton$beforeBroadcast(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ServerChunkCacheBroadcastMixin from mod krypton_hybrid->@Inject::krypton$afterBroadcast(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ServerChunkCacheBroadcastMixin from mod krypton_hybrid->@Inject::krypton$afterBroadcast(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.flushconsolidation.ServerChunkCacheBroadcastMixin from mod krypton_hybrid->@Inject::krypton$afterBroadcast(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinServerChunkManager from mod c2me_fixes_general_threading_issues->@Inject::onTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinServerChunkManager from mod c2me_fixes_general_threading_issues->@Inject::onTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:21.364] [Worker-Main-3/DEBUG] [mixin/]: c2me-fixes-general-threading-issues.mixins.json:asynccatchers.MixinServerChunkManager from mod c2me_fixes_general_threading_issues->@Inject::onTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:21.366] [Worker-Main-3/DEBUG] [mixin/]: c2me-rewrites-chunk-system.mixins.json:MixinServerChunkManager from mod c2me_rewrites_chunk_system->@Inject::shortcutGetChunk(IILnet/minecraft/world/level/chunk/status/ChunkStatus;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:21.367] [Worker-Main-3/DEBUG] [mixin/]: c2me-rewrites-chunk-system.mixins.json:MixinServerChunkManager from mod c2me_rewrites_chunk_system->@Inject::updateHolderMapAfterTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:21.367] [Worker-Main-3/DEBUG] [mixin/]: c2me-rewrites-chunk-system.mixins.json:MixinServerChunkManager from mod c2me_rewrites_chunk_system->@Inject::updateHolderMapAfterTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:21.367] [Worker-Main-3/DEBUG] [mixin/]: c2me-rewrites-chunk-system.mixins.json:MixinServerChunkManager from mod c2me_rewrites_chunk_system->@Inject::updateHolderMapAfterTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:21.374] [Worker-Main-3/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerChunkManager from mod c2me_opts_scheduling->@Inject::onPostTickChunk(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:21.374] [Worker-Main-3/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerChunkManager from mod c2me_opts_scheduling->@Inject::onPostTickChunk(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:21.374] [Worker-Main-3/DEBUG] [mixin/]: c2me-opts-scheduling.mixins.json:mid_tick_chunk_tasks.MixinServerChunkManager from mod c2me_opts_scheduling->@Inject::onPostTickChunk(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:21.458] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[05May2026 20:27:21.602] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[05May2026 20:27:21.798] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.799] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.800] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.802] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.804] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.804] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.805] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.807] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.808] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.809] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.811] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.812] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.856] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.856] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.857] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.858] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.859] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.861] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.862] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.863] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.865] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.866] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.867] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.868] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.869] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.870] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.871] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.873] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.875] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.877] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractInteractionsEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.878] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBattleEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.879] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.879] [Worker-Main-3/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[05May2026 20:27:21.929] [Worker-Main-3/INFO] [Pixelmon TCG/]: Loading TCG version 9.3.14
+[05May2026 20:27:21.935] [NeoForge Version Check/DEBUG] [net.neoforged.fml.VersionChecker/]: [pixelmon] Received version check data:
+{
+  "homepage": "https://pixelmonmod.com/",
+  "1.12.2": {
+    "6.0.0": "Released Pixelmon", 
+    "6.0.1": "Bug fix update.",
+    "6.2.0": "The Power Update",
+    "6.2.1": "Bug fix update",
+    "6.2.2": "Performace update",
+    "6.2.3": "The toaster performance update",
+    "6.3.0": "The Legendary Update",
+    "6.3.1": "Bug fix update",
+    "6.3.2": "Bug fix update",
+    "6.3.3": "Bug fix update",
+    "6.3.4": "Hotfix update",
+    "7.0.0": "Generation 7 update",
+    "7.0.1": "Bug fix update",
+    "7.0.2": "Bug fix update",
+    "7.0.3": "Crash fix",
+    "7.0.4": "Bug fix update",
+    "7.0.5": "They're no longer bugs. All hail Buzzwole.",
+    "7.0.6": "Two words: Legendary apocalypse",
+    "7.0.7": "Now with... Smart phones?",
+    "7.0.8": "A few more fixes before 7.1!",
+    "7.1.0": "The Integration Update",
+    "7.3.0": "Bye-Bye Pixelmon 7",
+    "7.3.1": "Bye-Bye Pixelmon 7",
+    "8.0.0": "Generation 8",
+    "8.0.2": "Generation 8",
+    "8.1.0": "A Sweet Update",
+    "8.1.1": "A Sweet Update",
+    "8.1.2": "A Sweet Update",
+    "8.2.0": "Something's different",
+    "8.3.0": "Vikings, probably",
+    "8.3.1": "Soup-er Spooky",
+    "8.3.2": "Sheep Starvation",
+    "8.3.3": "Sheep Starvation",
+    "8.3.4": "Forms, fixes and... spikey hair?",
+    "8.3.5": "Waiting....",
+    "8.3.6": "Spin, spin spin...",
+    "8.3.7": "Models, bugfixes and PL Pixelmon",
+    "8.3.8": "New voices!",
+    "8.4.0": "https://www.youtube.com/watch?v=SFkdcQgNJHo",
+    "8.4.1": "The essence of the update",
+    "8.4.2": "A Love/Hate relationship :)",
+    "8.4.3": "There are DOZENS of us, DOZENS!"
+  },
+  "1.16.5": {
+    "9.0.0": "Happy New Year!",
+    "9.0.1": "Great. Now we vampires...",
+    "9.0.2": "It's Hammertime....",
+    "9.0.3": "The loot is on fire",
+    "9.0.4": "Hoooooow Original...",
+    "9.0.5": "Don't worry, Bee happy :)",
+    "9.0.6": "Look up:)",
+    "9.0.7": "Your Daycare and You...",
+    "9.0.8": "Something about having a blast",
+    "9.0.9": "You have mail!",
+    "9.0.10": "GO GO GO!",
+    "9.0.11": "Swim Safely!",
+    "9.1.0": "Pick a card :)",
+    "9.1.1": "Pretty Ribbons and Wings...",
+	"9.1.2": "I already made a flight pun this week :(",
+	"9.1.3": "Love is in the Pokedex!",
+	"9.1.4": "Smol update",
+	"9.1.5": "Rainbows, but a lack of kittens",
+	"9.1.6": "9.1.6",
+	"9.1.7": "Insert Lost Woods bgm",
+	"9.1.8": "Witch version?",
+	"9.1.9": "Pumpkin...",
+	"9.1.10": "Splash!",
+	"9.1.11": "Bark Bark Bark",
+	"9.1.12": "9.1.12",
+	"9.1.13": "9.1.13"
+  },
+  "1.20.1": {
+    "9.2.0": "They have those cherry trees don't they? - Jay 2023",
+    "9.2.1": "1.20.1 (Alpha 2)",
+    "9.2.2": "1.20.1 (Alpha 3)",
+    "9.2.3": "1.20.1 (Alpha 4)"
+  },
+  "1.20.2": {
+    "9.2.4": "1.20.2 (Alpha 4)",
+    "9.2.5": "1.20.2 (Alpha 5)",
+    "9.2.6": "1.20.2 (Alpha 6)",
+    "9.2.7": "1.20.2 (Alpha 7)",
+    "9.2.8": "1.20.2 (Alpha 8)",
+    "9.2.9": "1.20.2 (Alpha 9)",
+    "9.2.10": "1.20.2 (Alpha 10)"
+  },
+  "1.21.1": {
+    "9.3.0": "1.21.1 NeoForge Initial",
+    "9.3.1": "9.3.1",
+    "9.3.2": "9.3.2",
+    "9.3.3": "9.3.3",
+    "9.3.4": "9.3.4",
+    "9.3.5": "9.3.5",
+    "9.3.6": "9.3.6",
+    "9.3.7": "9.3.7",
+    "9.3.8": "9.3.8",
+    "9.3.9": "9.3.9",
+    "9.3.10": "9.3.10",
+    "9.3.11": "9.3.11",
+    "9.3.12": "9.3.12",
+    "9.3.13": "9.3.13",
+    "9.3.14": "9.3.14",
+    "9.3.15": "9.3.15"
+  },
+  "promos": {
+    "1.21.1-latest": "9.3.15",
+    "1.21.1-recommended": "9.3.15",
+    "1.20.2-latest": "9.3.15",
+    "1.20.2-recommended": "9.2.10",
+    "1.20.1-latest": "9.3.14",
+    "1.20.1-recommended": "9.2.6",
+    "1.16.5-latest": "9.3.15",
+    "1.16.5-recommended": "9.1.15",
+    "1.12.2-latest": "9.3.15",
+    "1.12.2-recommended": "8.4.3"
+  }
+}
+[05May2026 20:27:21.937] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Found status: OUTDATED Current: 9.3.14 Target: 9.3.15
+[05May2026 20:27:21.946] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[05May2026 20:27:21.950] [Worker-Main-3/INFO] [Pixelmon TCG/]: Initializing Pixelmon TCG v9.3.14
+[05May2026 20:27:21.967] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 2 jobs
+[05May2026 20:27:21.970] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.247 ms
+[05May2026 20:27:21.999] [NeoForge Version Check/DEBUG] [net.neoforged.fml.VersionChecker/]: [tcg] Received version check data:
+{
+  "homepage": "https://pixelmonmod.com/",
+  "1.12.2": {
+    "6.0.0": "Released Pixelmon", 
+    "6.0.1": "Bug fix update.",
+    "6.2.0": "The Power Update",
+    "6.2.1": "Bug fix update",
+    "6.2.2": "Performace update",
+    "6.2.3": "The toaster performance update",
+    "6.3.0": "The Legendary Update",
+    "6.3.1": "Bug fix update",
+    "6.3.2": "Bug fix update",
+    "6.3.3": "Bug fix update",
+    "6.3.4": "Hotfix update",
+    "7.0.0": "Generation 7 update",
+    "7.0.1": "Bug fix update",
+    "7.0.2": "Bug fix update",
+    "7.0.3": "Crash fix",
+    "7.0.4": "Bug fix update",
+    "7.0.5": "They're no longer bugs. All hail Buzzwole.",
+    "7.0.6": "Two words: Legendary apocalypse",
+    "7.0.7": "Now with... Smart phones?",
+    "7.0.8": "A few more fixes before 7.1!",
+    "7.1.0": "The Integration Update",
+    "7.3.0": "Bye-Bye Pixelmon 7",
+    "7.3.1": "Bye-Bye Pixelmon 7",
+    "8.0.0": "Generation 8",
+    "8.0.2": "Generation 8",
+    "8.1.0": "A Sweet Update",
+    "8.1.1": "A Sweet Update",
+    "8.1.2": "A Sweet Update",
+    "8.2.0": "Something's different",
+    "8.3.0": "Vikings, probably",
+    "8.3.1": "Soup-er Spooky",
+    "8.3.2": "Sheep Starvation",
+    "8.3.3": "Sheep Starvation",
+    "8.3.4": "Forms, fixes and... spikey hair?",
+    "8.3.5": "Waiting....",
+    "8.3.6": "Spin, spin spin...",
+    "8.3.7": "Models, bugfixes and PL Pixelmon",
+    "8.3.8": "New voices!",
+    "8.4.0": "https://www.youtube.com/watch?v=SFkdcQgNJHo",
+    "8.4.1": "The essence of the update",
+    "8.4.2": "A Love/Hate relationship :)",
+    "8.4.3": "There are DOZENS of us, DOZENS!"
+  },
+  "1.16.5": {
+    "9.0.0": "Happy New Year!",
+    "9.0.1": "Great. Now we vampires...",
+    "9.0.2": "It's Hammertime....",
+    "9.0.3": "The loot is on fire",
+    "9.0.4": "Hoooooow Original...",
+    "9.0.5": "Don't worry, Bee happy :)",
+    "9.0.6": "Look up:)",
+    "9.0.7": "Your Daycare and You...",
+    "9.0.8": "Something about having a blast",
+    "9.0.9": "You have mail!",
+    "9.0.10": "GO GO GO!",
+    "9.0.11": "Swim Safely!",
+    "9.1.0": "Pick a card :)",
+    "9.1.1": "Pretty Ribbons and Wings...",
+	"9.1.2": "I already made a flight pun this week :(",
+	"9.1.3": "Love is in the Pokedex!",
+	"9.1.4": "Smol update",
+	"9.1.5": "Rainbows, but a lack of kittens",
+	"9.1.6": "9.1.6",
+	"9.1.7": "Insert Lost Woods bgm",
+	"9.1.8": "Witch version?",
+	"9.1.9": "Pumpkin...",
+	"9.1.10": "Splash!",
+	"9.1.11": "Bark Bark Bark",
+	"9.1.12": "9.1.12",
+	"9.1.13": "9.1.13"
+  },
+  "1.20.1": {
+    "9.2.0": "They have those cherry trees don't they? - Jay 2023",
+    "9.2.1": "1.20.1 (Alpha 2)",
+    "9.2.2": "1.20.1 (Alpha 3)",
+    "9.2.3": "1.20.1 (Alpha 4)"
+  },
+  "1.20.2": {
+    "9.2.4": "1.20.2 (Alpha 4)",
+    "9.2.5": "1.20.2 (Alpha 5)",
+    "9.2.6": "1.20.2 (Alpha 6)",
+    "9.2.7": "1.20.2 (Alpha 7)",
+    "9.2.8": "1.20.2 (Alpha 8)",
+    "9.2.9": "1.20.2 (Alpha 9)",
+    "9.2.10": "1.20.2 (Alpha 10)"
+  },
+  "1.21.1": {
+    "9.3.0": "1.21.1 NeoForge Initial",
+    "9.3.1": "9.3.1",
+    "9.3.2": "9.3.2",
+    "9.3.3": "9.3.3",
+    "9.3.4": "9.3.4",
+    "9.3.5": "9.3.5",
+    "9.3.6": "9.3.6",
+    "9.3.7": "9.3.7",
+    "9.3.8": "9.3.8",
+    "9.3.9": "9.3.9",
+    "9.3.10": "9.3.10",
+    "9.3.11": "9.3.11",
+    "9.3.12": "9.3.12",
+    "9.3.13": "9.3.13",
+    "9.3.14": "9.3.14",
+    "9.3.15": "9.3.15"
+  },
+  "promos": {
+    "1.21.1-latest": "9.3.15",
+    "1.21.1-recommended": "9.3.15",
+    "1.20.2-latest": "9.3.15",
+    "1.20.2-recommended": "9.2.10",
+    "1.20.1-latest": "9.3.14",
+    "1.20.1-recommended": "9.2.6",
+    "1.16.5-latest": "9.3.15",
+    "1.16.5-recommended": "9.1.15",
+    "1.12.2-latest": "9.3.15",
+    "1.12.2-recommended": "8.4.3"
+  }
+}
+[05May2026 20:27:21.999] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Found status: OUTDATED Current: 9.3.14 Target: 9.3.15
+[05May2026 20:27:22.273] [Worker-Main-2/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: Unable to find resource pack for setting window icon
+[05May2026 20:27:22.286] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Sided setup: 1 jobs
+[05May2026 20:27:22.287] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 98.50 μs
+[05May2026 20:27:22.664] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/yellow_floor_gym_sign' referenced from: pixelmon:item/yellow_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/yellow_floor_gym_sign.json
+[05May2026 20:27:22.666] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/gray_floor_gym_sign' referenced from: pixelmon:item/gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/gray_floor_gym_sign.json
+[05May2026 20:27:22.667] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/blue_floor_gym_sign' referenced from: pixelmon:item/blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/blue_floor_gym_sign.json
+[05May2026 20:27:22.667] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/brown_floor_gym_sign' referenced from: pixelmon:item/brown_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/brown_floor_gym_sign.json
+[05May2026 20:27:22.668] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/no_item' referenced from: pixelmon:item/no_item: java.io.FileNotFoundException: pixelmon:models/item/no_item.json
+[05May2026 20:27:22.669] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/purple_floor_gym_sign' referenced from: pixelmon:item/purple_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/purple_floor_gym_sign.json
+[05May2026 20:27:22.669] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/black_floor_gym_sign' referenced from: pixelmon:item/black_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/black_floor_gym_sign.json
+[05May2026 20:27:22.671] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/magenta_floor_gym_sign' referenced from: pixelmon:item/magenta_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/magenta_floor_gym_sign.json
+[05May2026 20:27:22.672] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/light_gray_floor_gym_sign' referenced from: pixelmon:item/light_gray_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_gray_floor_gym_sign.json
+[05May2026 20:27:22.674] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/green_floor_gym_sign' referenced from: pixelmon:item/green_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/green_floor_gym_sign.json
+[05May2026 20:27:22.675] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/light_blue_floor_gym_sign' referenced from: pixelmon:item/light_blue_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/light_blue_floor_gym_sign.json
+[05May2026 20:27:22.676] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/pink_floor_gym_sign' referenced from: pixelmon:item/pink_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/pink_floor_gym_sign.json
+[05May2026 20:27:22.678] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/white_floor_gym_sign' referenced from: pixelmon:item/white_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/white_floor_gym_sign.json
+[05May2026 20:27:22.678] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/red_floor_gym_sign' referenced from: pixelmon:item/red_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/red_floor_gym_sign.json
+[05May2026 20:27:22.683] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'tcg:item/battle_spectator' referenced from: tcg:item/battle_spectator: java.io.FileNotFoundException: tcg:models/item/battle_spectator.json
+[05May2026 20:27:22.683] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/lime_floor_gym_sign' referenced from: pixelmon:item/lime_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/lime_floor_gym_sign.json
+[05May2026 20:27:22.687] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/orange_floor_gym_sign' referenced from: pixelmon:item/orange_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/orange_floor_gym_sign.json
+[05May2026 20:27:22.688] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'pixelmon:item/cyan_floor_gym_sign' referenced from: pixelmon:item/cyan_floor_gym_sign: java.io.FileNotFoundException: pixelmon:models/item/cyan_floor_gym_sign.json
+[05May2026 20:27:22.781] [Worker-Main-13/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture pixelmon:block/placeholder with size 1x1 limits mip level from 4 to 0
+[05May2026 20:27:23.892] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:fossil_display#facing=north,multipos=bottom:
+    minecraft:textures/atlas/blocks.png:pixelmon:block/fossil_display
+[05May2026 20:27:23.892] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:trash_can#:
+    minecraft:textures/atlas/blocks.png:pixelmon:block/trash_can
+[05May2026 20:27:23.892] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:zygarde_cell#orientation=east,rotation=south:
+    minecraft:textures/atlas/blocks.png:pixelmon:block/cell/zygarde_cell
+[05May2026 20:27:23.892] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:fossil_machine#facing=east,multipos=bottom:
+    minecraft:textures/atlas/blocks.png:pixelmon:block/fossil_machine
+[05May2026 20:27:23.892] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model tcg:battle_spectator#facing=west,multipos=base:
+    minecraft:textures/atlas/blocks.png:minecraft:block/anvil_base
+[05May2026 20:27:23.892] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:jade_orb#facing=east:
+    minecraft:textures/atlas/blocks.png:pixelmon:block/orbs/delta_orb
+[05May2026 20:27:23.892] [Worker-Main-13/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model pixelmon:zygarde_core#orientation=south,rotation=down:
+    minecraft:textures/atlas/blocks.png:pixelmon:block/cell/zygarde_core
+[05May2026 20:27:24.375] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[05May2026 20:27:24.376] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[05May2026 20:27:25.100] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 스피커(Realtek(R) Audio)
+[05May2026 20:27:25.101] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[05May2026 20:27:25.193] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[05May2026 20:27:25.260] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[05May2026 20:27:25.260] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[05May2026 20:27:25.261] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[05May2026 20:27:25.262] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[05May2026 20:27:25.267] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[05May2026 20:27:25.267] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[05May2026 20:27:25.268] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[05May2026 20:27:25.268] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[05May2026 20:27:25.304] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/fossil_machine/fossil_extractor_glass.pqc has no animations!
+[05May2026 20:27:25.310] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[05May2026 20:27:25.310] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[05May2026 20:27:25.310] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 0 LINKS = 0
+[05May2026 20:27:25.310] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[05May2026 20:27:25.311] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[05May2026 20:27:25.311] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 1 LINKS = 0
+[05May2026 20:27:25.311] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[05May2026 20:27:25.311] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[05May2026 20:27:25.311] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 2 LINKS = 0
+[05May2026 20:27:25.311] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 5 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 6 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 7 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 8 LINKS = 0
+[05May2026 20:27:25.312] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 9 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 10 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 29 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[05May2026 20:27:25.313] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 30 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 31 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 32 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 33 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 34 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[05May2026 20:27:25.314] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 35 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 36 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 37 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 38 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 39 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 40 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 41 LINKS = 0
+[05May2026 20:27:25.315] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 42 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 43 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 44 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 45 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 46 LINKS = 0
+[05May2026 20:27:25.316] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 47 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 48 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 49 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 50 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[05May2026 20:27:25.317] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 51 LINKS = 0
+[05May2026 20:27:25.318] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[05May2026 20:27:25.318] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[05May2026 20:27:25.318] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 52 LINKS = 0
+[05May2026 20:27:25.318] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[05May2026 20:27:25.318] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[05May2026 20:27:25.318] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 69 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 70 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 71 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 72 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 73 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 74 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 75 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[05May2026 20:27:25.319] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 76 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 77 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 78 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 79 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 80 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[05May2026 20:27:25.320] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[05May2026 20:27:25.321] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 81 LINKS = 0
+[05May2026 20:27:25.321] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[05May2026 20:27:25.321] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[05May2026 20:27:25.321] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 82 LINKS = 0
+[05May2026 20:27:25.321] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[05May2026 20:27:25.321] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[05May2026 20:27:25.321] [Render thread/ERROR] [com.pixelmonmod.pixelmon.Pixelmon/]: ERROR WITH MODEL pixelmon:models/pixelutilities/fossil_display/fossildisplayglass.bmd AT LINE 83 LINKS = 0
+[05May2026 20:27:25.345] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/infuser/infuser_glass.pqc has no animations!
+[05May2026 20:27:25.354] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/blocks/reassembly_unit/reassembly_unit_glass.pqc has no animations!
+[05May2026 20:27:25.378] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/fluff/clouds.pqc has no animations!
+[05May2026 20:27:25.418] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/shiny_charm.pqc has no animations!
+[05May2026 20:27:25.427] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/oval_charm.pqc has no animations!
+[05May2026 20:27:25.434] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/exp_charm.pqc has no animations!
+[05May2026 20:27:25.444] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/catching_charm.pqc has no animations!
+[05May2026 20:27:25.454] [Render thread/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Model pixelmon:models/playeritems/mark_charm.pqc has no animations!
+[05May2026 20:27:25.455] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[05May2026 20:27:25.457] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[05May2026 20:27:25.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[05May2026 20:27:25.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[05May2026 20:27:25.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[05May2026 20:27:25.483] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[05May2026 20:27:25.562] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_smooth_cutout_fresnel could not find uniform named FogStart in the specified shader program.
+[05May2026 20:27:25.565] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:rendertype_entity_cutout_no_cull could not find uniform named IViewRotMat in the specified shader program.
+[05May2026 20:27:25.577] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find sampler named Sampler1 in the specified shader program.
+[05May2026 20:27:25.577] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find sampler named Sampler2 in the specified shader program.
+[05May2026 20:27:25.577] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:cel could not find uniform named Light1_Direction in the specified shader program.
+[05May2026 20:27:25.582] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find sampler named Sampler0 in the specified shader program.
+[05May2026 20:27:25.582] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named ColorModulator in the specified shader program.
+[05May2026 20:27:25.582] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named Light0_Direction in the specified shader program.
+[05May2026 20:27:25.582] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named Light1_Direction in the specified shader program.
+[05May2026 20:27:25.583] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named FogStart in the specified shader program.
+[05May2026 20:27:25.583] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader pixelmon:terrastalization could not find uniform named RenderColor in the specified shader program.
+[05May2026 20:27:25.600] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[05May2026 20:27:28.970] [Render thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[05May2026 20:27:29.114] [Server Pinger #0/DEBUG] [mixin/]: Mixing network.pipeline.PacketEncoderMixin from krypton_hybrid.mixins.json into net.minecraft.network.PacketEncoder
+[05May2026 20:27:29.119] [Server Pinger #0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.pipeline.PacketEncoderMixin from mod krypton_hybrid->@Inject::kryptonfnp$cacheHitEncode(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;Lio/netty/buffer/ByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[05May2026 20:27:29.120] [Server Pinger #0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.pipeline.PacketEncoderMixin from mod krypton_hybrid->@Inject::kryptonfnp$trackAndCachePacket(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;Lio/netty/buffer/ByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:27:29.120] [Server Pinger #0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.pipeline.PacketEncoderMixin from mod krypton_hybrid->@Inject::kryptonfnp$trackAndCachePacket(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;Lio/netty/buffer/ByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:27:29.120] [Server Pinger #0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.pipeline.PacketEncoderMixin from mod krypton_hybrid->@Inject::kryptonfnp$trackAndCachePacket(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;Lio/netty/buffer/ByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:27:29.139] [Server Pinger #0/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[05May2026 20:27:29.145] [Server Pinger #0/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[05May2026 20:27:29.156] [Server Pinger #0/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[05May2026 20:27:29.156] [Server Pinger #0/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[05May2026 20:27:29.201] [Server Pinger #0/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 40228 (auto-detected)
+[05May2026 20:27:29.204] [Server Pinger #0/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: true
+[05May2026 20:27:29.204] [Server Pinger #0/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[05May2026 20:27:29.206] [Server Pinger #0/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[05May2026 20:27:29.208] [Server Pinger #0/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[05May2026 20:27:29.210] [Server Pinger #0/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: f8:3d:c6:ff:fe:22:b3:3f (auto-detected)
+[05May2026 20:27:29.228] [Netty Client IO #0/DEBUG] [mixin/]: Mixing network.pipeline.Varint21FrameDecoderMixin from krypton_hybrid.mixins.json into net.minecraft.network.Varint21FrameDecoder
+[05May2026 20:27:29.231] [Netty Client IO #0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.pipeline.Varint21FrameDecoderMixin from mod krypton_hybrid->@Inject::decode$kryptonfnp(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[05May2026 20:27:29.245] [Server Pinger #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[05May2026 20:27:29.245] [Server Pinger #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[05May2026 20:27:29.245] [Server Pinger #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[05May2026 20:27:29.245] [Server Pinger #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[05May2026 20:27:29.245] [Server Pinger #0/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[05May2026 20:27:29.254] [Netty Client IO #0/DEBUG] [mixin/]: Mixing network.microopt.VarIntMixin from krypton_hybrid.mixins.json into net.minecraft.network.VarInt
+[05May2026 20:27:29.254] [Netty Client IO #0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.VarIntMixin from mod krypton_hybrid->@Inject::getByteSize$kryptonfnp(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:29.254] [Netty Client IO #0/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.VarIntMixin from mod krypton_hybrid->@Inject::read$kryptonfnp(Lio/netty/buffer/ByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:27:30.443] [LanServerDetector #1/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
+[05May2026 20:27:31.943] [LanServerDetector #1/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
+[05May2026 20:28:07.046] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to cbnusoftware.kro.kr, 25565
+[05May2026 20:28:07.070] [Server Connector #1/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv4 address: "172.30.69.56"
+[05May2026 20:28:07.722] [Netty Client IO #2/DEBUG] [mixin/]: Mixing network.MixinClientCommonNetworkHandler from c2me-base.mixins.json into net.minecraft.client.multiplayer.ClientCommonPacketListenerImpl
+[05May2026 20:28:07.724] [Netty Client IO #2/DEBUG] [mixin/]: c2me-base.mixins.json:network.MixinClientCommonNetworkHandler from mod c2me_base->@Inject::onCustomPayloadMinecraftRegister(Lnet/minecraft/network/protocol/common/ClientboundCustomPayloadPacket;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:28:07.725] [Netty Client IO #2/DEBUG] [mixin/]: c2me-base.mixins.json:network.MixinClientCommonNetworkHandler from mod c2me_base->@Inject::onCustomPayloadMinecraftRegister(Lnet/minecraft/network/protocol/common/ClientboundCustomPayloadPacket;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:28:07.725] [Netty Client IO #2/DEBUG] [mixin/]: c2me-base.mixins.json:network.MixinClientCommonNetworkHandler from mod c2me_base->@Inject::onCustomPayloadMinecraftRegister(Lnet/minecraft/network/protocol/common/ClientboundCustomPayloadPacket;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:28:07.736] [Netty Client IO #2/DEBUG] [mixin/]: Mixing MixinSyncedClientOptions from c2me-client-uncapvd.mixins.json into net.minecraft.server.level.ClientInformation
+[05May2026 20:28:07.738] [Netty Client IO #2/DEBUG] [mixin/]: Mixing access.ISyncedClientOptions from c2me-base.mixins.json into net.minecraft.server.level.ClientInformation
+[05May2026 20:28:07.787] [Netty Client IO #2/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@11ff1fc2 into net.minecraft.network.Connection@674ce080
+[05May2026 20:28:07.944] [Render thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[05May2026 20:28:08.767] [Netty Client IO #2/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[05May2026 20:28:08.990] [Netty Client IO #2/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
+[05May2026 20:28:09.105] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: equal Weight: 0
+[05May2026 20:28:09.105] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: uncommon Weight: 40
+[05May2026 20:28:09.107] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: haunted Weight: 0
+[05May2026 20:28:09.108] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: common Weight: 50
+[05May2026 20:28:09.108] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: legendary Weight: 10
+[05May2026 20:28:09.108] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: ultimate Weight: 1
+[05May2026 20:28:09.108] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: rare Weight: 30
+[05May2026 20:28:09.109] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: notboss Weight: 0
+[05May2026 20:28:09.109] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: epic Weight: 20
+[05May2026 20:28:09.109] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: drowned Weight: 0
+[05May2026 20:28:09.154] [Netty Client IO #2/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
+[05May2026 20:28:10.254] [Render thread/DEBUG] [mixin/]: Mixing network.chunk.ClientboundLevelChunkWithLightPacketMixin from krypton_hybrid.mixins.json into net.minecraft.network.protocol.game.ClientboundLevelChunkWithLightPacket
+[05May2026 20:28:10.255] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$readLightData$krypton$1(Lnet/minecraft/network/FriendlyByteBuf;[B)V to mdc8145f$krypton_hybrid$lambda$readLightData$krypton$1$0 in krypton_hybrid.mixins.json:network.chunk.ClientboundLevelChunkWithLightPacketMixin from mod krypton_hybrid
+[05May2026 20:28:10.255] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$readLightData$krypton$0(Lnet/minecraft/network/FriendlyByteBuf;[B)V to mdc8145f$krypton_hybrid$lambda$readLightData$krypton$0$1 in krypton_hybrid.mixins.json:network.chunk.ClientboundLevelChunkWithLightPacketMixin from mod krypton_hybrid
+[05May2026 20:28:10.265] [Render thread/DEBUG] [mixin/]: Mixing network.chunk.ClientboundLightUpdatePacketMixin from krypton_hybrid.mixins.json into net.minecraft.network.protocol.game.ClientboundLightUpdatePacket
+[05May2026 20:28:10.265] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$readLightData$krypton$1(Lnet/minecraft/network/FriendlyByteBuf;[B)V to mdc8145f$krypton_hybrid$lambda$readLightData$krypton$1$0 in krypton_hybrid.mixins.json:network.chunk.ClientboundLightUpdatePacketMixin from mod krypton_hybrid
+[05May2026 20:28:10.265] [Render thread/DEBUG] [mixin/]: Renaming synthetic method lambda$readLightData$krypton$0(Lnet/minecraft/network/FriendlyByteBuf;[B)V to mdc8145f$krypton_hybrid$lambda$readLightData$krypton$0$1 in krypton_hybrid.mixins.json:network.chunk.ClientboundLightUpdatePacketMixin from mod krypton_hybrid
+[05May2026 20:28:10.273] [Render thread/DEBUG] [mixin/]: Mixing network.microopt.MoveEntityPacketAccessor from krypton_hybrid.mixins.json into net.minecraft.network.protocol.game.ClientboundMoveEntityPacket
+[05May2026 20:28:10.300] [Render thread/DEBUG] [mixin/]: Mixing network.blockentity.ClientBlockEntityDeltaMixin from krypton_hybrid.mixins.json into net.minecraft.client.multiplayer.ClientPacketListener
+[05May2026 20:28:10.307] [Render thread/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.blockentity.ClientBlockEntityDeltaMixin from mod krypton_hybrid->@Inject::krypton$mergeDelta(Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[05May2026 20:28:10.384] [Render thread/DEBUG] [mixin/]: Mixing access.ISimpleRandom from c2me-base.mixins.json into net.minecraft.world.level.levelgen.SingleThreadedRandomSource
+[05May2026 20:28:10.386] [Render thread/INFO] [CheckedThreadLocalRandom/]: Enforcing safe world random access
+[05May2026 20:28:10.394] [Render thread/DEBUG] [mixin/]: Mixing fastchunkentityaccess.TransientEntitySectionManagerAccessor from krypton_hybrid.mixins.json into net.minecraft.world.level.entity.TransientEntitySectionManager
+[05May2026 20:28:10.398] [Render thread/DEBUG] [mixin/]: Mixing fastchunkentityaccess.EntitySectionStorageMixin from krypton_hybrid.mixins.json into net.minecraft.world.level.entity.EntitySectionStorage
+[05May2026 20:28:10.414] [Render thread/DEBUG] [mixin/]: Mixing access.IUpgradeData from c2me-base.mixins.json into net.minecraft.world.level.chunk.UpgradeData
+[05May2026 20:28:10.418] [Render thread/DEBUG] [mixin/]: Mixing access.IChunkTickScheduler from c2me-base.mixins.json into net.minecraft.world.ticks.LevelChunkTicks
+[05May2026 20:28:10.423] [Render thread/DEBUG] [mixin/]: Mixing access.IChunkSection from c2me-base.mixins.json into net.minecraft.world.level.chunk.LevelChunkSection
+[05May2026 20:28:10.533] [Netty Client IO #2/DEBUG] [mixin/]: Mixing network.microopt.VarLongMixin from krypton_hybrid.mixins.json into net.minecraft.network.VarLong
+[05May2026 20:28:10.534] [Netty Client IO #2/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.microopt.VarLongMixin from mod krypton_hybrid->@Inject::getByteSize$kryptonfnp(JLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[05May2026 20:28:10.581] [Netty Client IO #2/DEBUG] [mixin/]: Mixing network.chunk.ChunkDataOptMixin from krypton_hybrid.mixins.json into net.minecraft.network.protocol.game.ClientboundLevelChunkPacketData
+[05May2026 20:28:10.584] [Netty Client IO #2/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.chunk.ChunkDataOptMixin from mod krypton_hybrid->@Inject::krypton$captureSectionCount(Lnet/minecraft/world/level/chunk/LevelChunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:28:10.584] [Netty Client IO #2/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.chunk.ChunkDataOptMixin from mod krypton_hybrid->@Inject::krypton$captureSectionCount(Lnet/minecraft/world/level/chunk/LevelChunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:28:10.584] [Netty Client IO #2/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.chunk.ChunkDataOptMixin from mod krypton_hybrid->@Inject::krypton$captureSectionCount(Lnet/minecraft/world/level/chunk/LevelChunk;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:28:10.584] [Netty Client IO #2/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.chunk.ChunkDataOptMixin from mod krypton_hybrid->@Inject::krypton$writeOptimized(Lnet/minecraft/network/RegistryFriendlyByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[05May2026 20:28:10.587] [Netty Client IO #2/DEBUG] [mixin/]: Mixing network.chunk.ChunkLightCompressMixin from krypton_hybrid.mixins.json into net.minecraft.network.protocol.game.ClientboundLightUpdatePacketData
+[05May2026 20:28:10.591] [Netty Client IO #2/DEBUG] [mixin/]: krypton_hybrid.mixins.json:network.chunk.ChunkLightCompressMixin from mod krypton_hybrid->@Inject::write$krypton(Lnet/minecraft/network/FriendlyByteBuf;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[05May2026 20:28:10.646] [Render thread/DEBUG] [mixin/]: Mixing fastchunkentityaccess.EntitySectionAccessor from krypton_hybrid.mixins.json into net.minecraft.world.level.entity.EntitySection
+[05May2026 20:28:10.649] [Render thread/DEBUG] [mixin/]: Mixing MixinCommandManager from c2me-server-utils.mixins.json into net.minecraft.commands.Commands
+[05May2026 20:28:10.651] [Render thread/DEBUG] [mixin/]: c2me-server-utils.mixins.json:MixinCommandManager from mod c2me_server_utils->@Inject::registerCommands(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[05May2026 20:28:10.651] [Render thread/DEBUG] [mixin/]: c2me-server-utils.mixins.json:MixinCommandManager from mod c2me_server_utils->@Inject::registerCommands(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[05May2026 20:28:10.651] [Render thread/DEBUG] [mixin/]: c2me-server-utils.mixins.json:MixinCommandManager from mod c2me_server_utils->@Inject::registerCommands(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[05May2026 20:28:10.807] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3 advancements
+[05May2026 20:28:15.468] [LanServerDetector #2/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
+[05May2026 20:28:15.468] [LanServerDetector #3/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
+[05May2026 20:28:16.970] [LanServerDetector #3/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
+[05May2026 20:28:44.438] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to cbnusoftware.kro.kr, 25565
+[05May2026 20:28:44.450] [Server Connector #2/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv4 address: "172.30.69.56"
+[05May2026 20:28:45.211] [Netty Client IO #5/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@201663c1 into net.minecraft.network.Connection@2b22ea86
+[05May2026 20:28:45.305] [Render thread/WARN] [net.neoforged.fml.config.ConfigTracker/]: Overwriting non-null config LoadedConfig[config=SynchronizedConfig{DataHolder:{removeErroringBlockEntities=false, removeErroringEntities=false, fullBoundingBoxLadders=false, permissionHandler=neoforge:default_handler, advertiseDedicatedServerToLan=true}}, path=null, modConfig=net.neoforged.fml.config.ModConfig@512ae877] at path neoforge-server.toml with synced config
+[05May2026 20:28:45.306] [Render thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[05May2026 20:28:45.675] [Netty Client IO #5/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[05May2026 20:28:45.856] [Netty Client IO #5/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
+[05May2026 20:28:45.937] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: equal Weight: 0
+[05May2026 20:28:45.937] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: uncommon Weight: 40
+[05May2026 20:28:45.937] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: haunted Weight: 0
+[05May2026 20:28:45.937] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: common Weight: 50
+[05May2026 20:28:45.938] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: legendary Weight: 10
+[05May2026 20:28:45.938] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: ultimate Weight: 1
+[05May2026 20:28:45.938] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: rare Weight: 30
+[05May2026 20:28:45.938] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: notboss Weight: 0
+[05May2026 20:28:45.938] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: epic Weight: 20
+[05May2026 20:28:45.938] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Decoding: drowned Weight: 0
+[05May2026 20:28:45.986] [Netty Client IO #5/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
+[05May2026 20:28:46.940] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3 advancements
+[05May2026 20:29:08.173] [LanServerDetector #5/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
+[05May2026 20:29:09.673] [LanServerDetector #5/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
+[05May2026 20:29:11.185] [LanServerDetector #5/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "fe80:0:0:0:7c25:c403:5851:d8b8%11"
