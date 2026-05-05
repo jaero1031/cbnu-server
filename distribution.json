@@ -37,7 +37,7 @@
                     "modules": []
                 },
                 {
-                    "id": "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91",
+                    "id": "com.ishland.c2me:c2me-neoforge-mc1.21.1:0.3.0+alpha.0.91",
                     "name": "C2ME",
                     "type": "ForgeMod",
                     "artifact": {
@@ -49,7 +49,7 @@
                     }
                 },
                 {
-                    "id": "krypton-hybrid-1.21.1-neoforge-0.2.30",
+                    "id": "org.kryptonmc:krypton-hybrid:0.2.30",
                     "name": "Krypton",
                     "type": "ForgeMod",
                     "artifact": {
@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "id": "Pixelmon-1.21.1-9.3.14-universal",
+                    "id": "com.pixelmonmod:pixelmon:9.3.14",
                     "name": "Pixelmon",
                     "type": "ForgeMod",
                     "artifact": {
