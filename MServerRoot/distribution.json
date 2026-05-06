@@ -42,7 +42,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "version": "0.3.0+alpha.0.91",
-                        "path": "mods/com/ishland/c2me/c2me/0.3.0+alpha.0.91/c2me-0.3.0+alpha.0.91.jar",
+                        "path": "mods/c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar",
                         "url": "https://jaero1031.github.io/cbnu-server/MServerRoot/servers/CBNUsw-1.21.1/neoforgemods/required/c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar",
                         "md5": "c5c3f47d2ef0ea0eec32f55e60344b48",
                         "size": 4508649
@@ -54,7 +54,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "version": "0.2.30",
-                        "path": "mods/com/xinian/krypton/krypton_hybrid/0.2.30/krypton_hybrid-0.2.30.jar",
+                        "path": "mods/krypton-hybrid-1.21.1-neoforge-0.2.30.jar",
                         "url": "https://jaero1031.github.io/cbnu-server/MServerRoot/servers/CBNUsw-1.21.1/neoforgemods/required/krypton-hybrid-1.21.1-neoforge-0.2.30.jar",
                         "md5": "18437821326f312a5554e29b2c986aa4",
                         "size": 8137159
@@ -66,7 +66,7 @@
                     "type": "ForgeMod",
                     "artifact": {
                         "version": "9.3.14",
-                        "path": "mods/com/pixelmonmod/pixelmon/9.3.14/pixelmon-9.3.14.jar",
+                        "path": "mods/Pixelmon-1.21.1-9.3.14-universal.jar",
                         "url": "https://cdn.modrinth.com/data/59ZceYlU/versions/NknNQ3DN/Pixelmon-1.21.1-9.3.14-universal.jar",
                         "md5": "16b4735ab6775939fd085a4a9c5f60a1",
                         "size": 392190454
